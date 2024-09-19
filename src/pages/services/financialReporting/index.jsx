@@ -4,6 +4,7 @@ import TitleBox from '../../../components/titleBox/TitleBox'
 import Banner from '../../../components/heroBanner/Banner'
 import Nav from '../../../components/nav/Nav'
 import benefitIcon from '../../../assets/images/svgs/benefits-icon.svg'
+import financials from '../../../assets/images/services/financial-report.jpg'
 
 const FinancialReporting = () => {
   return (
@@ -23,7 +24,7 @@ const FinancialReporting = () => {
                     {/* <h4 className='text-2xl font-semibold mt-2'>Business Consultancy</h4> */}
                     <div className='grid md:grid-cols-2 gap-10 py-4'>
                         <div className='h-96 p-10'>
-                            <img src={"bookkeeping"} alt="" className='h-full w-full' />
+                            <img src={financials} alt="" className='h-full w-full' />
 
                         </div>
                         <div className='py-10'>

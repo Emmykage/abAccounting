@@ -42,7 +42,7 @@ const Nav = () => {
 
               </ul>
             </li>
-            <li  className='px-4 py-2 cursor-pointer'><NavLink to={'/blog'} className={({isActive}) => (isActive && "text-alt")}> BLOG </NavLink></li>
+            <li  className='px-4 py-2 cursor-pointer'><NavLink to={'/blog'} className={({isActive}) => (isActive && "text-alt")}> Blog </NavLink></li>
             <li  className='px-4 py-2 cursor-pointer'><NavLink to={'/contact-us'} className={({isActive}) => (isActive && "text-alt")}> Contact Us </NavLink></li>
         </ul>
 
