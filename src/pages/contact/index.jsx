@@ -46,16 +46,16 @@ const Contact = () => {
         </p>
 
         </div>
-        <form className='max-w-7xl m-auto md:p-10 border-[5px] px-3 border-gray-300'>
+        <form action="https://formspree.io/f/meojbarv"  method="post" className='max-w-7xl m-auto md:p-10 border-[5px] px-3 border-gray-300'>
           <div className='flex flex-col md:flex-row gap-6 my-6'>
             <div className='flex-1'>
               <label htmlFor="name"></label>
-              <input type="text" placeholder='Name' className='p-5 focus:border-none text-gray-900 w-full font-semibold'/>
+              <input type="text" placeholder='Name' name='name' className='p-5 focus:border-none text-gray-900 w-full font-semibold'/>
 
             </div>
             <div className='flex-1'>
               <label htmlFor="email">
-              <input type="text"  placeholder='Email' className='p-5 focus:outline-none text-gray-900 w-full font-semibold'/>
+              <input type="text"  placeholder='Email' name='email' className='p-5 focus:outline-none text-gray-900 w-full font-semibold'/>
 
               </label>
             </div>

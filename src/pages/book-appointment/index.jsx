@@ -26,13 +26,13 @@ const BookApointment = () => {
                 </p>
             </div>
             <div className='border-4 m-auto my-6 max-w-5xl md:p-10'>
-                <form>
+                <form action="https://formspree.io/f/meojbarv"  method="post">
                     <p className='italic'>Fill Out the Form Below:
                     </p>
                     <div className='grid md:grid-cols-21 my-4'>
                         <div>
                             <label htmlFor="">Full Name</label>
-                            <input type="text"  className='w-full py-4'/>
+                            <input type="text"  name='name' className='w-full py-4'/>
                         </div>
 
                     </div>
@@ -40,25 +40,25 @@ const BookApointment = () => {
 
                     <div>
                         <label htmlFor="email">Email</label>
-                        <input type="text" className='w-full py-3' />
+                        <input type="email" name='email' className='w-full py-3' />
                     </div>
                     <div>
-                    <label htmlFor="email">Phone Number</label>
-                    <input type="text" className='w-full py-3'/>
+                    <label htmlFor="number">Phone Number</label>
+                    <input type="text" name='number' className='w-full py-3'/>
 
                     </div>
                     </div>
                     <div className='grid  my-4'>
                         <div>
                             <label htmlFor="">Business Name</label>
-                            <input type="text"  className='focus:outline-none w-full py-4'/>
+                            <input type="text" name='business-name' className='focus:outline-none w-full py-4'/>
                         </div>
 
                     </div>
                     <div className='grid grid-cols-3 gap-4 my-4'>
                         <div>
                             <label htmlFor="appointment">Pick Appointment</label>
-                            <select className='w-full text-black p-4' id='appointment'>
+                            <select className='w-full text-black p-4' name='appointment' id='appointment'>
                             <option value="book_keeping"> Book Keeping & Payroll</option>
                             <option value="tax_planning"> Tax Planning </option>
                             <option value="financial_reporting"> Financial Reporting</option>
@@ -71,20 +71,20 @@ const BookApointment = () => {
                         <div>
                         <label htmlFor="time">Time</label>
 
-                        <input type="time"  className='w-full text-black p-4' />
+                        <input type="time" name='time' className='w-full text-black p-4' />
 
                         </div>
                         <div>
                         <label htmlFor="date">Pick Appointment</label>
 
-                        <input type="date"  className='w-full text-black p-4' />
+                        <input type="date" name='date' className='w-full text-black p-4' />
 
                         </div>
                     </div>
                     <div className='my-4'>
                         <div>
                             <label htmlFor="method" className='italic'>Preferred  Consultation Method</label>
-                            <select className='w-full text-black p-4' id='method' defaultValue={"phone"}>
+                            <select name="contact-method"  className='w-full text-black p-4' id='method' defaultValue={"phone"}>
                             <option value="phone"> Phone</option>
                             <option value="video"> Video call </option>
                             <option value="in-person-meeting"> In Person Meeting Reporting</option>
@@ -95,7 +95,7 @@ const BookApointment = () => {
                     </div>
 
                     <div>
-                        <button className='text-black bg-white py-3 px-12 m-auto font-medium block w-full md:w-max hover:bg-gray-800 hover:text-white transition-all duration-200 ease-out'>
+                        <button type='submit' className='text-black bg-white py-3 px-12 m-auto font-medium block w-full md:w-max hover:bg-gray-800 hover:text-white transition-all duration-200 ease-out'>
                             Book Appointment
                         </button>
                     </div>

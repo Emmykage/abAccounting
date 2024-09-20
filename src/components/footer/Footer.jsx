@@ -6,6 +6,8 @@ import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
+    <section>
+
     <footer className='bg-gray-900 py-20 px-4'>
         <div className='m-auto max-w-7xl grid gap-10 md:grid-cols-3'>
             <div className='md:px-12'>
@@ -42,8 +44,25 @@ const Footer = () => {
       
         </div>
 
+
         
     </footer>
+    
+    <div className="text-center mt-20">
+              <p className="text-sm text-gray-400">© 2024 ABFAccounting – 18 Thricknells Close, Luton, LU3 3RP. Telephone: 07405141694
+              </p>
+
+              <ul className="text-sm my-4 text-red-500 m-auto md:justify-center flex flex-col md:flex-row max-w-4xl flex-wrap gap-3 md:gap-0">
+
+                <li className="border-r border-gray-400 px-4"> <nuxt-link to="/privacy-policy" class="hover:text-theme" >Privacy Policy </nuxt-link> </li>
+                <li className="border-r border-gray-400 px-4"> <nuxt-link to="/privacy-policy" class="hover:text-theme" >Cookie Policy</nuxt-link></li>
+                <li className="border-r border-gray-400 px-4">Modern Slavery Statement</li>
+                <li className=" border-gray-400 px-4"> Site Map</li>
+              </ul>
+          </div>
+
+    </section>
+
   )
 }
 
