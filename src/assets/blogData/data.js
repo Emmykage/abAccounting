@@ -26,7 +26,7 @@ export const blogs = [
     //         <li> <a class="underline text-teal-500"> Strategies for Improving Cash Flow in Your Business</a> </li>
           
     //       </ul>
-    //       <h2 class="my-4 text-lg font-medium" >Why Choose AB Accounting Services?</h2>
+    //       <h2 class="my-4 text-lg font-medium" >Why Choose ABF Accounting Services?</h2>
     //       <ul> 
     //       <li> 
     //         <h4> Comprehensive Business Support</h4>
@@ -58,7 +58,7 @@ export const blogs = [
     //       <h4 class="text-xl font-semibold">Need Help Managing Your Cash Flow?</h4>
     
     //       <p>
-    // Let AB Accounting Services Help Your Business Succeed.
+    // Let ABF Accounting Services Help Your Business Succeed.
      
     //         <a class="text-blue-600" href="/business-consultancy">Get a Free Consultation</a> 
     //         and start optimizing your business finances today.
@@ -70,11 +70,11 @@ export const blogs = [
     title: "Understanding UK Corporate Tax for Small Businesses",
     blogImage: corporateImage,
     category: "Tax Planning",
-    description: "Corporate tax can be a daunting subject for small business owners in the UK, but understanding how it works is essential for staying compliant and optimizing your financial position. At AB Accounting Services, we specialize in helping small businesses navigate the complexities of UK corporate tax. Let’s dive into the basics of corporate tax and how it affects your business.", 
+    description: "Corporate tax can be a daunting subject for small business owners in the UK, but understanding how it works is essential for staying compliant and optimizing your financial position. At ABF Accounting Services, we specialize in helping small businesses navigate the complexities of UK corporate tax. Let’s dive into the basics of corporate tax and how it affects your business.", 
 
     body: `
     <h3 class="font-bold text-2xl">Understanding UK Corporate Tax for Small Businesses</h3>
-    <p className="text-xl font-bold">Corporate tax can be a daunting subject for small business owners in the UK, but understanding how it works is essential for staying compliant and optimizing your financial position. At AB Accounting Services, we specialize in helping small businesses navigate the complexities of UK corporate tax. Let’s dive into the basics of corporate tax and how it affects your business.</p>
+    <p className="text-xl font-bold">Corporate tax can be a daunting subject for small business owners in the UK, but understanding how it works is essential for staying compliant and optimizing your financial position. At ABF Accounting Services, we specialize in helping small businesses navigate the complexities of UK corporate tax. Let’s dive into the basics of corporate tax and how it affects your business.</p>
       
       <h2 class="my-4 text-lg font-medium" >What Is Corporate Tax?</h2>
       <p>Corporate tax is a levy on the profits made by your business. The current rate for small businesses in the UK is [insert rate], and all businesses must report their profits to HMRC and pay corporate tax accordingly.</p>
@@ -92,7 +92,7 @@ export const blogs = [
       <p>Take advantage of Annual Investment Allowance (AIA), which allows you to deduct the cost of business assets like machinery and equipment from your taxable profits.</p>
       
       <h2 class="my-4 text-lg font-medium">Need Help with Corporate Tax?</h2>
-      <p>At AB Accounting Services, we specialize in tax planning and corporate tax compliance for small businesses. Our team ensures you meet deadlines, claim all available deductions, and minimize your tax liabilities.</p>
+      <p>At ABF Accounting Services, we specialize in tax planning and corporate tax compliance for small businesses. Our team ensures you meet deadlines, claim all available deductions, and minimize your tax liabilities.</p>
       
       <p><a class="text-blue-600" href="/tax-planning">Explore Our Tax Planning Services</a> and get in touch for a free consultation.</a>
    `
@@ -125,13 +125,13 @@ export const blogs = [
       <p>As your business grows, you’ll need software that can scale with it. Ensure your software can handle expanding operations and integrate with other tools like CRM systems or inventory management.</p>
       
       <h2 class="my-4 text-lg font-medium">Need Help with Corporate Tax?</h2>
-      <p>At AB Accounting Services, we specialize in tax planning and corporate tax compliance for small businesses. Our team ensures you meet deadlines, claim all available deductions, and minimize your tax liabilities.</p>
+      <p>At ABF Accounting Services, we specialize in tax planning and corporate tax compliance for small businesses. Our team ensures you meet deadlines, claim all available deductions, and minimize your tax liabilities.</p>
       <div>
 
       <h4 class="text-xl font-semibold">Need Help Choosing the Right Software?</h4>
 
       <p>
-        At AB Accounting Services, we help businesses implement and optimize the right accounting software for their unique needs
+        At ABF Accounting Services, we help businesses implement and optimize the right accounting software for their unique needs
         <a class="text-blue-600" href="/bookkeeping">Explore Our BookKeeping  Services</a> or <a href="/contact-us" class="underline text-blue-600"> Contact Us </a>
         to get personalized advice on the best software for your business.
 
@@ -140,7 +140,7 @@ export const blogs = [
    `,
    CTA: {
     isAvailable: true,
-    textBody: "At AB Accounting Services, we help businesses implement and optimize the right accounting software for their unique needs",
+    textBody: "At ABF Accounting Services, we help businesses implement and optimize the right accounting software for their unique needs",
     buttonText: "Contact Us"
 
    }
@@ -154,7 +154,7 @@ export const blogs = [
 
     body: `
     <h3 class="font-bold text-2xl">Understanding UK Corporate Tax for Small Businesses</h3>
-    <p className="text-xl font-bold">Corporate tax can be a daunting subject for small business owners in the UK, but understanding how it works is essential for staying compliant and optimizing your financial position. At AB Accounting Services, we specialize in helping small businesses navigate the complexities of UK corporate tax. Let’s dive into the basics of corporate tax and how it affects your business.</p>
+    <p className="text-xl font-bold">Corporate tax can be a daunting subject for small business owners in the UK, but understanding how it works is essential for staying compliant and optimizing your financial position. At ABF Accounting Services, we specialize in helping small businesses navigate the complexities of UK corporate tax. Let’s dive into the basics of corporate tax and how it affects your business.</p>
       
       <h2 class="my-4 text-lg font-medium" >1. Save Time and Improve Efficiency</h2>
       <p>Payroll requires constant attention to details like tax codes, national insurance contributions, and pension deductions. By outsourcing payroll, you free up time to focus on core business activities while ensuring payroll is handled efficiently and accurately.</p>
@@ -174,7 +174,7 @@ export const blogs = [
       <h4 class="text-xl font-semibold">Is Outsourcing Payroll Right for Your Business?</h4>
 
       <p>
-        At AB Accounting Services, we provide reliable and cost-effective payroll outsourcing services that ensure compliance and accuracy. 
+        At ABF Accounting Services, we provide reliable and cost-effective payroll outsourcing services that ensure compliance and accuracy. 
         <a class="text-blue-600" href="/bookkeeping-payroll">Learn More About Our Payroll Services </a> or <a href="/contact-us" class="underline text-blue-600"> Contact Us </a>
         for a free consultation.
 
@@ -212,7 +212,7 @@ export const blogs = [
       <h4 class="text-xl font-semibold">Need Help Managing Your Cash Flow?</h4>
 
       <p>
-        At AB Accounting Services, we provide expert financial consultancy and cash flow management advice to help your business thrive
+        At ABF Accounting Services, we provide expert financial consultancy and cash flow management advice to help your business thrive
         <a class="text-blue-600" href="/business-consultancy">Explore Our Consultancy Services </a> or <a href="/contact-us" class="underline text-blue-600"> Contact Us </a>
         Today for personalized strategies to improve your cash flow.
       </div>    

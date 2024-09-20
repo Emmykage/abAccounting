@@ -20,7 +20,7 @@ const BookApointment = () => {
         <section className='py-10 px-4 text-white bookAppointment '>
             <div className='max-w-3xl m-auto'>
                 <h4 className='text-xl text-center md:text-4xl font-semibold text-white'>Book Your Free Consultation</h4>
-                <p className='text-lg text-center font-medium text-gray-300'>Interested in learning how AB Accounting Services can help your business thrive? Book your free consultation today!
+                <p className='text-lg text-center font-medium text-gray-300'>Interested in learning how ABF Accounting Services can help your business thrive? Book your free consultation today!
 
 
                 </p>

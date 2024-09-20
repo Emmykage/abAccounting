@@ -24,7 +24,7 @@ const BusinessConsultancy = () => {
                 </div>
 
                 <div className='mt-6'>
-                    <p> At AB Accounting Services, we understand that running a successful business involves more than just keeping track of your finances. Our business consultancy services are designed to help you make informed decisions, plan for growth, and navigate challenges. Whether you're a startup looking for direction or an established business aiming to scale, our expert consultants provide actionable insights and strategies tailored to your needs.</p>
+                    <p> At ABF Accounting Services, we understand that running a successful business involves more than just keeping track of your finances. Our business consultancy services are designed to help you make informed decisions, plan for growth, and navigate challenges. Whether you're a startup looking for direction or an established business aiming to scale, our expert consultants provide actionable insights and strategies tailored to your needs.</p>
                     {/* <h4 className='text-2xl font-semibold mt-2'>Business Consultancy</h4> */}
                     <div className='grid md:grid-cols-2 gap-10 py-4'>
                         <div className='h-96 p-10'>
@@ -42,7 +42,7 @@ const BusinessConsultancy = () => {
 
                     <div>
                     <h4 className='font-semibold text-3xl text-center'>Our Business Consultancy Services  </h4>
-                    <p className='text-center max-w-xl m-auto'>At AB Accounting Services, we offer a range of consultancy services designed to address the unique needs of your business, from improving profitability to planning long-term growth. Here’s how we can support you:</p>
+                    <p className='text-center max-w-xl m-auto'>At ABF Accounting Services, we offer a range of consultancy services designed to address the unique needs of your business, from improving profitability to planning long-term growth. Here’s how we can support you:</p>
                    
                     <div className='servive-container grid gap-4 md:grid-cols-3 my-6'>
                         <div className='shadow rounded p-8'>
@@ -123,7 +123,7 @@ const BusinessConsultancy = () => {
             <div className='grid md:grid-cols-2 m-auto max-w-7xl'>
 
                 <div className='max-w-7xl text-white leading-7'>
-                    <h3 className='text-3xl my-2 text-alt'> <span className='font-semibold'>Why Choose AB Accounting Services for Business Consultancy? </span></h3>
+                    <h3 className='text-3xl my-2 text-alt'> <span className='font-semibold'>Why Choose ABF Accounting Services for Business Consultancy? </span></h3>
                     {/* <p>Outsourcing your bookkeeping and payroll services can offer several advantages:
                     </p> */}
                     <ul className='list-inside list-dis px-5'>
@@ -183,7 +183,7 @@ const BusinessConsultancy = () => {
                 Ready to Take Your Business to the Next Level?
                 </h3>
                 <p className='text-center max-w-4xl m-auto font-medium text-gray-600'>
-                At AB Accounting Services, we’re committed to helping you achieve sustainable business growth through expert consultancy services. Whether you’re looking to improve your operations, plan for expansion, or navigate complex business challenges, our team is here to support you every step of the way.
+                At ABF Accounting Services, we’re committed to helping you achieve sustainable business growth through expert consultancy services. Whether you’re looking to improve your operations, plan for expansion, or navigate complex business challenges, our team is here to support you every step of the way.
 
                 </p>
                 </div>

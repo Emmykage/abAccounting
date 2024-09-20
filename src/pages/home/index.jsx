@@ -15,8 +15,8 @@ const Home = () => {
 
         <section className='py-20 px-4'>
             <div className='m-auto max-w-3xl text-center'>
-                <h3 className='text-2xl md:text-3xl px-3 py-2 w-max m-auto font-medium border-alt border-[4px]'>Welcome to AB Accounting Services </h3>
-                <p className='text-black mt-4'>AB Accounting Services provides comprehensive accounting solutions for UK businesses of all sizes. Our team of professional accountants is dedicated to helping your business grow through tailored financial strategies and seamless compliance with UK regulations.
+                <h3 className='text-2xl md:text-3xl px-3 py-2 w-max m-auto font-medium border-alt border-[4px]'>Welcome to ABF Accounting Services </h3>
+                <p className='text-black mt-4'>ABF Accounting Services provides comprehensive accounting solutions for UK businesses of all sizes. Our team of professional accountants is dedicated to helping your business grow through tailored financial strategies and seamless compliance with UK regulations.
 
                 </p>
             </div>
@@ -38,7 +38,7 @@ const Home = () => {
                 <div className='wwa-text p-3'>
                     <h3 className='font-semibold text-2xl uppercase mb-10'>Your Trusted Accountants in the UK</h3>
                     <p>
-                    At AB Accounting Services, we pride ourselves on delivering accounting services for businesses in the UK that are tailored to each client's unique needs. <br/> <br/>  With years of experience supporting industries ranging from retail to tech startups, we ensure your business stays compliant and financially sound.
+                    At ABF Accounting Services, we pride ourselves on delivering accounting services for businesses in the UK that are tailored to each client's unique needs. <br/> <br/>  With years of experience supporting industries ranging from retail to tech startups, we ensure your business stays compliant and financially sound.
 
                     </p>
 
@@ -49,7 +49,7 @@ const Home = () => {
         <section className='py-20 px-5'>
             <div className='m-auto max-w-3xl text-center'>
                     <h3 className='text-2xl md:text-6xl px-3 py-2 w-max m-auto font-normal border-alt border-[4px]'>Our <span className='font-semibold'>Capabilities</span></h3>
-                    <p className='text-black mt-4'>AB Accounting Services provides comprehensive accounting solutions for UK businesses of all sizes. Our team of professional accountants is dedicated to helping your business grow through tailored financial strategies and seamless compliance with UK regulations.
+                    <p className='text-black mt-4'>ABF Accounting Services provides comprehensive accounting solutions for UK businesses of all sizes. Our team of professional accountants is dedicated to helping your business grow through tailored financial strategies and seamless compliance with UK regulations.
 
                     </p>
             </div>
@@ -66,7 +66,7 @@ const Home = () => {
             <div> 
                 <h3 className='text-4xl font-semibold'>Grow Your Business with Expert Accounting
                 </h3>
-                <p className='my-6'>We know that managing finances can be challenging, but with AB Accounting Services, you're in safe hands. Our services are designed to reduce your administrative burden, improve financial clarity, and support your business's growth</p>
+                <p className='my-6'>We know that managing finances can be challenging, but with ABF Accounting Services, you're in safe hands. Our services are designed to reduce your administrative burden, improve financial clarity, and support your business's growth</p>
             </div>
             </div>
         </section>

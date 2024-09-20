@@ -11,8 +11,8 @@ const Footer = () => {
     <footer className='bg-gray-900 py-20 px-4'>
         <div className='m-auto max-w-7xl grid gap-10 md:grid-cols-3'>
             <div className='md:px-12'>
-                <h3 className='text-white text-3xl mb-4'>ABAccount</h3>
-                <p className=' text-sm text-gray-300'>AB Accounting Services provides comprehensive accounting solutions for UK businesses of all sizes. <br/> <br/> Our team of professional accountants is dedicated to helping your business grow through tailored financial strategies and seamless compliance with UK regulations.</p>
+                <h3 className='font-medium text-3xl mb-4 text-alt'>ABF Accounting</h3>
+                <p className=' text-sm text-gray-300'>ABF Accounting Services provides comprehensive accounting solutions for UK businesses of all sizes. <br/> <br/> Our team of professional accountants is dedicated to helping your business grow through tailored financial strategies and seamless compliance with UK regulations.</p>
 
             </div>
             <div className='text-white text- md:px-10'>
@@ -49,7 +49,7 @@ const Footer = () => {
     </footer>
     
     <div className="text-center mt-20">
-              <p className="text-sm text-gray-400">© 2024 ABFAccounting – 18 Thricknells Close, Luton, LU3 3RP. Telephone: 07405141694
+              <p className="text-sm text-gray-400">© 2024 ABF Accounting – 18 Thricknells Close, Luton, LU3 3RP. Telephone: 07405141694
               </p>
 
               <ul className="text-sm my-4 text-red-500 m-auto md:justify-center flex flex-col md:flex-row max-w-4xl flex-wrap gap-3 md:gap-0">

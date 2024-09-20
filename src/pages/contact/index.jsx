@@ -14,24 +14,24 @@ const Contact = () => {
 
       <section className='py-10 px-5'>
         <div>
-          <h3 className='py-5 px-4 border-[3px] m-auto border-alt w-max text-3xl font-semibold'>Contact Us</h3>
-          <p className='text-center max-w-4xl m-auto my-6'>Whether you need help with tax planning, payroll, or business consultancy, we’re here to support your accounting needs. Our team of experts is available to provide personalized advice and support for your business</p>
+          {/* <h3 className='py-5 px-4 border-[3px] m-auto border-alt w-max text-3xl font-semibold'>Contact Us</h3> */}
+          <p className='text-center font-medium text-gray-600 max-w-4xl m-auto my-6'>Whether you need help with tax planning, payroll, or business consultancy, we’re here to support your accounting needs. Our team of experts is available to provide personalized advice and support for your business</p>
           <div className='grid md:grid-cols-3 max-w-7xl m-auto gap-8'>
             <div className='text-center shadow p-8'>
               <span className='block m-auto text-center w-max my-3'><FaHouse className='text-3xl' /></span>
-              <h4 className='text-xl font-medium text-gray-600 uppercase'>office address</h4>
-              <p className='text-lg'><address>18 Thricknells Close, Luton, LU3 3RP</address>
+              <h4 className='text-xl font-medium text-gray-600 capitalize'>office address</h4>
+              <p className='text-lg'><address className='not-italic'>18 Thricknells Close, Luton, LU3 3RP</address>
               </p>
             </div>
             <div className='text-center shadow md:p-8'>
               <span className='block m-auto text-center w-max my-3'><FaPhoneAlt className='text-3xl' /></span>
-              <h4 className='text-xl font-medium text-gray-600 uppercase'>contact number</h4>
+              <h4 className='text-xl font-medium text-gray-600 capitalize'>contact number</h4>
               <a href="tel:+07405141694">07405141694</a>
             </div>
             <div className='text-center shadow p-8'>
               <span className='block m-auto text-center w-max my-3'><IoMailSharp className='text-3xl'/></span>
-              <h4 className='text-xl font-medium text-gray-600 uppercase'>
-              email id</h4>
+              <h4 className='text-xl font-medium text-gray-600 capitalize'>
+              email</h4>
               <p className='text-lg'><a href="mailto:support@abfaccounting.com"> support@abfaccounting.com</a></p>
             </div>
         
@@ -42,7 +42,7 @@ const Contact = () => {
       <section className='get-in-touch text-white py-20 px-4'>
         <div className='max-w-4xl  m-auto my-14'>
         <h3 className='text-5xl text-center font-semibold '>Get In Touch</h3>
-        <p className='md:text-2xl my-5 text-center'>Contact Us Today to schedule a free consultation and discover how AB Accounting Services can help your business thrive.
+        <p className='md:text-2xl my-5 text-center'>Contact Us Today to schedule a free consultation and discover how ABF Accounting Services can help your business thrive.
         </p>
 
         </div>

@@ -14,7 +14,7 @@ const About = () => {
             <div>
               <h3 className='text-3xl font-semibold'> <span className='font-bold'>Your Trusted Accountants in the UK             </span> </h3>
               <p className='font-medium my-10'>
-              At AB Accounting Services, we pride ourselves on delivering accounting services for businesses in the UK that are tailored to each client's unique needs. 
+              At ABF Accounting Services, we pride ourselves on delivering accounting services for businesses in the UK that are tailored to each client's unique needs. 
               <br/> <br/>
               With years of experience supporting industries ranging from retail to tech startups, we ensure your business stays compliant and financially sound.
 

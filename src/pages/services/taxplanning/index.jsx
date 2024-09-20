@@ -21,7 +21,7 @@ const TaxPlanning = () => {
                 </div>
 
                 <div className='mt-6'>
-                    <p> Effective tax planning is essential for businesses looking to reduce their tax liabilities while staying compliant with UK tax regulations. At AB Accounting Services, we offer tailored tax planning services designed to help businesses of all sizes make the most of tax-saving opportunities and ensure full compliance with HMRC requirements.
+                    <p> Effective tax planning is essential for businesses looking to reduce their tax liabilities while staying compliant with UK tax regulations. At ABF Accounting Services, we offer tailored tax planning services designed to help businesses of all sizes make the most of tax-saving opportunities and ensure full compliance with HMRC requirements.
                     </p>
                     <h4 className='text-2xl font-semibold mt-2'>Why Is Tax Planning Important?                    </h4>
                     <div className='grid md:grid-cols-2 gap-10 py-4'>
@@ -68,7 +68,7 @@ const TaxPlanning = () => {
 
                     <div>
                     <h4 className='font-semibold text-xl text-center'>Our Tax Planning Services             </h4>
-                    <p className='text-center max-w-xl m-auto my-6'>At AB Accounting Services, we offer a range of services to support your business’s tax planning and compliance needs:
+                    <p className='text-center max-w-xl m-auto my-6'>At ABF Accounting Services, we offer a range of services to support your business’s tax planning and compliance needs:
                     </p>
                     <div className='grid gap-10 md:grid-cols-3'>
                         <div className='bg-red-5'>
@@ -161,7 +161,7 @@ const TaxPlanning = () => {
             <div className=' m-auto max-w-7xl'>
 
                 <div className='max-w-7xl text-white leading-7'>
-                    <h3 className='text-3xl my-2 text-alt'> <span className='font-semibold'>Why Choose AB Accounting Services for Tax Planning?                 </span></h3>
+                    <h3 className='text-3xl my-2 text-alt'> <span className='font-semibold'>Why Choose ABF Accounting Services for Tax Planning?                 </span></h3>
                     <div className='grid sm:grid-cols-2'>
 
                     <ul className='list-inside list-dis px-5'>
@@ -187,7 +187,7 @@ const TaxPlanning = () => {
                         
                     </li>
                     <li className='flex items-cente gap-4 '> <span className='text-3xl'>&#8226;</span> 
-                        <p><span className='font-semibold text-nowrap'>	Peace of Mind: </span>                  With AB Accounting Services handling your tax planning and compliance, you can focus on running your business, knowing that your taxes are in expert hands.</p> 
+                        <p><span className='font-semibold text-nowrap'>	Peace of Mind: </span>                  With ABF Accounting Services handling your tax planning and compliance, you can focus on running your business, knowing that your taxes are in expert hands.</p> 
                         
                     </li>
 
@@ -207,7 +207,7 @@ const TaxPlanning = () => {
                 Ready to Optimize Your Tax Strategy?
                 </h3>
                 <p className='text-center max-w-4xl m-auto font-medium text-gray-600'>
-                At AB Accounting Services, we are committed to helping your business grow while minimizing your tax liabilities. Contact us today to schedule a free consultation and discover how our tax planning services can benefit your business.
+                At ABF Accounting Services, we are committed to helping your business grow while minimizing your tax liabilities. Contact us today to schedule a free consultation and discover how our tax planning services can benefit your business.
 
 
                </p>
