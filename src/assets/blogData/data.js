@@ -1,5 +1,5 @@
-import payroll from "../../assets/images/blogs/benefits-of-payroll-outsourcing-1.webp"
-import corporateImage from '../../assets/images/blogs/coporate-tax.jpg'
+import payroll from "../../assets/images/blogs/Outsourcing-Payroll-1.webp"
+import corporateImage from '../../assets/images/blogs/uk-taxes.webp'
 import cashflowImage from '../../assets/images/blogs/CashFlow1-scaled.jpg'
 import accountSoftware from '../../assets/images/blogs/how-to-choose-the-right-accounting-software-for-your-business.png'
 import blogUpdate from '../../assets/images/blogs/blog-update.webp'
@@ -7,69 +7,69 @@ import {v4 as uuidv4} from "uuid"
 
 const blogid = uuidv4()
 export const blogs = [
-    {
-        id:  uuidv4(),
-        title: "Stay Updated with the Latest Accounting Insights",
-        blogImage: blogUpdate,
-        category: "Buisiness",
-        description: "Our blog provides expert advice and updates on the latest in UK accounting, tax regulations, and financial best practices. Stay informed to make better financial decisions for your business..", 
+    // {
+    //     id:  uuidv4(),
+    //     title: "Stay Updated with the Latest Accounting Insights",
+    //     blogImage: blogUpdate,
+    //     category: "Buisiness",
+    //     description: "Our blog provides expert advice and updates on the latest in UK accounting, tax regulations, and financial best practices. Stay informed to make better financial decisions for your business..", 
     
-        body: `
-        <h3 class="font-bold text-2xl">
-    Stay Updated with the Latest Accounting Insights</h3>
-        <p className="text-xl font-bold">Our blog provides expert advice and updates on the latest in UK accounting, tax regulations, and financial best practices. Stay informed to make better financial decisions for your business.</p>
-          <ul class="list-disc list-inside"> 
-            <li> <a class="underline text-teal-500"> Understanding UK Corporate Tax for Small Businesses </a> </li>
-            <li> <a class="underline text-teal-500">How to Choose the Right Accounting Software </a> </li>
-            <li> <a class="underline text-teal-500"> The Benefits of Outsourcing Payroll</a> </li>
-            <li> <a class="underline text-teal-500"> Understanding UK Corporate Tax for Small Businesses </a> </li>
-            <li> <a class="underline text-teal-500"> Strategies for Improving Cash Flow in Your Business</a> </li>
+    //     body: `
+    //     <h3 class="font-bold text-2xl">
+    // Stay Updated with the Latest Accounting Insights</h3>
+    //     <p className="text-xl font-bold">Our blog provides expert advice and updates on the latest in UK accounting, tax regulations, and financial best practices. Stay informed to make better financial decisions for your business.</p>
+    //       <ul class="list-disc list-inside"> 
+    //         <li> <a class="underline text-teal-500"> Understanding UK Corporate Tax for Small Businesses </a> </li>
+    //         <li> <a class="underline text-teal-500">How to Choose the Right Accounting Software </a> </li>
+    //         <li> <a class="underline text-teal-500"> The Benefits of Outsourcing Payroll</a> </li>
+    //         <li> <a class="underline text-teal-500"> Understanding UK Corporate Tax for Small Businesses </a> </li>
+    //         <li> <a class="underline text-teal-500"> Strategies for Improving Cash Flow in Your Business</a> </li>
           
-          </ul>
-          <h2 class="my-4 text-lg font-medium" >Why Choose AB Accounting Services?</h2>
-          <ul> 
-          <li> 
-            <h4> Comprehensive Business Support</h4>
-            <p>Whether you're looking for day-to-day bookkeeping, tax planning, or long-term financial strategy, we provide a full range of services to meet your business's needs.</p>
+    //       </ul>
+    //       <h2 class="my-4 text-lg font-medium" >Why Choose AB Accounting Services?</h2>
+    //       <ul> 
+    //       <li> 
+    //         <h4> Comprehensive Business Support</h4>
+    //         <p>Whether you're looking for day-to-day bookkeeping, tax planning, or long-term financial strategy, we provide a full range of services to meet your business's needs.</p>
     
-          </li>
-              <li> 
-            <h4> Expert Knowledge of UK Accounting Standards</h4>
-            <p>Our team of certified accountants is highly knowledgeable in UK tax law, ensuring you remain compliant while maximizing your financial potential</p>
+    //       </li>
+    //           <li> 
+    //         <h4> Expert Knowledge of UK Accounting Standards</h4>
+    //         <p>Our team of certified accountants is highly knowledgeable in UK tax law, ensuring you remain compliant while maximizing your financial potential</p>
     
-          </li>
-              <li> 
-            <h4> Client-Focused Approach</h4>
-            <p>We build long-term relationships with our clients, understanding your business inside out to provide the most effective and personalized accounting solutions.</p>
+    //       </li>
+    //           <li> 
+    //         <h4> Client-Focused Approach</h4>
+    //         <p>We build long-term relationships with our clients, understanding your business inside out to provide the most effective and personalized accounting solutions.</p>
     
-          </li>
-              <li> 
-            <h4>Transparent Pricing</h4>
-            <p>⦁	No hidden fees or surprise costs—our pricing structure is clear, competitive, and tailored to the services you need.
+    //       </li>
+    //           <li> 
+    //         <h4>Transparent Pricing</h4>
+    //         <p>⦁	No hidden fees or surprise costs—our pricing structure is clear, competitive, and tailored to the services you need.
     
     
-          </li>
+    //       </li>
     
-          </ul>
+    //       </ul>
           
           
-      <div>
+    //   <div>
     
-          <h4 class="text-xl font-semibold">Need Help Managing Your Cash Flow?</h4>
+    //       <h4 class="text-xl font-semibold">Need Help Managing Your Cash Flow?</h4>
     
-          <p>
-    Let AB Accounting Services Help Your Business Succeed.
+    //       <p>
+    // Let AB Accounting Services Help Your Business Succeed.
      
-            <a class="text-blue-600" href="/business-consultancy">Get a Free Consultation</a> 
-            and start optimizing your business finances today.
-          </div>    
-        `
-      },
+    //         <a class="text-blue-600" href="/business-consultancy">Get a Free Consultation</a> 
+    //         and start optimizing your business finances today.
+    //       </div>    
+    //     `
+    //   },
        {
     id: uuidv4(),
     title: "Understanding UK Corporate Tax for Small Businesses",
     blogImage: corporateImage,
-    category: "Buisiness",
+    category: "Tax Planning",
     description: "Corporate tax can be a daunting subject for small business owners in the UK, but understanding how it works is essential for staying compliant and optimizing your financial position. At AB Accounting Services, we specialize in helping small businesses navigate the complexities of UK corporate tax. Let’s dive into the basics of corporate tax and how it affects your business.", 
 
     body: `
@@ -101,7 +101,7 @@ export const blogs = [
     id: uuidv4(),
     title: "How to Choose the Right Accounting Software",
     blogImage: accountSoftware,
-    category: "Accounting Tools & Technology",
+    category: "Business Consultancy",
     description: "Selecting the right accounting software is crucial for managing your business's finances efficiently. In this guide, we’ll explore the key factors to consider when choosing software for your small business and why it's essential for growth", 
 
     body: `
@@ -149,7 +149,7 @@ export const blogs = [
     id: uuidv4(),
     title: "The Benefits of Outsourcing Payroll",
     blogImage: payroll,
-    category: "Management",
+    category: "Bookkeeping & Payroll",
     description: "Managing payroll is often time-consuming and complex. That’s why outsourcing payroll has become an increasingly popular solution for businesses of all sizes. Here’s why outsourcing payroll could benefit your business.", 
 
     body: `
@@ -184,7 +184,7 @@ export const blogs = [
     id:  uuidv4(),
     title: "Strategies for Improving Cash Flow in Your Business",
     blogImage: cashflowImage,
-    category: "Buisiness",
+    category: "Buisiness Consultancy",
     description: "Cash flow is the lifeblood of any business. Without effective cash flow management, businesses may struggle to meet day-to-day expenses. Here are some strategies to help you improve your business’s cash flow.", 
 
     body: `

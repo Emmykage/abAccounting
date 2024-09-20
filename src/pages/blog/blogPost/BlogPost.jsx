@@ -17,7 +17,7 @@ const BlogPost = () => {
     <Banner header={blog?.category}/>
     <section className='px-5 py-20'>
 
-          <div className="blog max-w-[1600px] m-auto gap-6 grid md:grid-cols-blogLayout">
+          <div className="blog max-w-[1600px] m-auto gap-4 grid md:grid-cols-blogLayout">
             <div className='shadow px-2'>
               <h3 className='text-center text-xl my-5'>Recent Post</h3>
             
@@ -36,7 +36,7 @@ const BlogPost = () => {
 
             </div>
 
-            <div className='max-w-7xl m-auto'>
+            <div className='max-w-5xl px-2 m-auto'>
                 <div dangerouslySetInnerHTML={{__html: blog?.body}} />
 
             </div>

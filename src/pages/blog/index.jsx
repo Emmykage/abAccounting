@@ -23,7 +23,7 @@ const Blog = () => {
                 </div>
                 <div>
                   <h6 className='font-medium'>{blog?.category}</h6>
-                  <p>{blog?.description?.substring(0, 40)}...</p>
+                  <p className='font-semibold text-gray-600'>{blog?.title?.substring(0, 40)}...</p>
                 </div>
               </div>
               ))}
@@ -31,27 +31,29 @@ const Blog = () => {
 
             </div>
             <div className='shadow'>
-              <div className='grid gap-5 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 px-5'>
+              <h3 className='text-2xl font-semibold text-center'> Stay Updated with the Latest Accounting Insights           </h3>
+              <p className='text-center max-w-4xl m-auto font-semibold my-2'>Our blog provides expert advice and updates on the latest in UK accounting, tax regulations, and financial best practices. Stay informed to make better financial decisions for your business.              </p>
+              <div className='grid gap-5 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 px-5 my-10'>
                 {blogs.map(blog => (
                   <>
                    <div  className=' rounded overflow-hidden'>              
-                      <div onClick={()=> navigate(`/blog-post/${blog.id}`)} className='w-full h-72 bg-red-500 blg-img overflow-hidden'>
+                      <div onClick={()=> navigate(`/blog-post/${blog.id}`)} className='w-full h-72 bg-gray-500 blg-img overflow-hidden'>
                         <img src={blog.blogImage} alt="" className='w-full h-full' />
                       </div>
 
-                <div className='border-l-4 my-7 px-4 py-2 border-b-4 border-alt'>
-                  <NavLink to={`/blog-post/${blog.id}`} className='text-base font-semibold text-gray-600 hover:text-alt'>
-                    {blog.title}
-                  </NavLink>
+                        <div className='border-l-4 my-7 px-4 py-2 border-b-4 border-alt'>
+                          <NavLink to={`/blog-post/${blog.id}`} className='text-base font-semibold text-gray-600 hover:text-alt'>
+                            {blog.title}
+                          </NavLink>
 
-                 
-                </div>
+                        
+                        </div>
 
-                <p className=' px-1 text-sm my-5 text-gray-600'>Admin/ Taxes / {blog.category} / 0 Comments</p>
+                        <p className=' px-1 text-sm my-5 text-gray-600'>Admin/ Taxes / {blog.category} / 0 Comments</p>
 
-                <div className='px-2'> 
-                  <p>{blog.description.substring(0,150)}...</p>              
-                </div>
+                        <div className='px-2'> 
+                          <p>{blog.description.substring(0,150)}...</p>              
+                        </div>
 
         
               </div>  

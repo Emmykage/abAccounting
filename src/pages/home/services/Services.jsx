@@ -13,14 +13,14 @@ const Services = ({details}) => {
             <img src={idea} alt="" className='w-10 m-auto' />
                 <NavLink to="/financial-reporting" >            
                 <p className='my-6 font-medium title'>
-                Accurate Accounting Solutions</p></NavLink>
+                	Financial Reporting</p></NavLink>
            {details && <p className='my-5'>Duis a est tincidunt, consectetur ex id, mollis tellus mauris feugiat elit.</p> } 
 
         </div>
 
         <div className='shadow text-center rounded-lg p-10'>
             <img src={briefcase} alt="" className='w-10 m-auto' />
-            <NavLink to={"/tax-planning"}><p className='my-6 font-medium title'>Strategic Tax Planning            </p></NavLink>
+            <NavLink to={"/tax-planning"}><p className='my-6 font-medium title'>Strategic Tax Planning & Compliance            </p></NavLink>
             { details &&  <p className='my-5'>Duis a est tincidunt, consectetur ex id, mollis tellus mauris feugiat elit.</p>}
 
         </div>

@@ -18,9 +18,9 @@ const Services = () => {
 
         <section className='py-16 px-4 service-tab'>
 
-            <h3 className='text-center text-3xl font-semibold mb-6'>Our Services</h3>
-            <p className='text-center max-w-5xl m-auto'>Explore Our Accounting Services for UK Businesses
-                <br/>
+            <h3 className='text-center text-3xl font-semibold mb-6'>Explore Our Accounting Services for UK Businesses</h3>
+            <p className='text-center max-w-5xl m-auto'>
+           
             Our range of services is designed to support businesses at every stage, from startups to established corporations. Whether you need basic bookkeeping or advanced tax planning, AB Accounting Services is here for you</p>
             <div className='services grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl m-auto'>
         
@@ -97,7 +97,7 @@ Business Consultancy
         
     </div>
         </section>
-        <Offers/>
+        {/* <Offers/> */}
 
         
         <CTA text={"start optimizing your business finances today."} buttonText={"Get a Free Consultation"} title={"Ready to Take Control of Your Business Finances?"}/>
