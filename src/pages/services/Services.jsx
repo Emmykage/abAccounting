@@ -23,63 +23,39 @@ const Services = () => {
            
             Our range of services is designed to support businesses at every stage, from startups to established corporations. Whether you need basic bookkeeping or advanced tax planning, ABF Accounting Services is here for you</p>
             <div className='services grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl m-auto'>
-        
-        <div className='shadow relative text-center rounded-lg p-10'>
-            <img src={idea} alt="" className='w-10 m-auto' />
-            <NavLink to={"/business-consultancy"}>
-            <p className='my-6 font-medium title'>Business Consultancy</p>
-            </NavLink>
+                <div className='shadow relative text-center rounded-lg p-10'>
+                    <img src={compliance} alt="" className='w-10 m-auto' />
 
-           <p className='my-5'>Ready to take your business to the next level? Our business consultancy services offer expert financial advice on cash flow management, budgeting, and long-term financial planning for sustainable growth.</p>
-            <div className='collapsable bg-gray-950/60'>
+                    <NavLink to="/bookkeeping-payroll">
+                    
+                    <p className='my-6 font-medium title'>Bookkeeping & Payroll Services
+                    </p></NavLink>
+                    <p className='my-5'>Keep your financial records organized and up to date with our professional bookkeeping services. We also offer payroll management to ensure accurate and timely employee payments, letting you focus on running your business.
+                    </p>
+                    <div className='collapsable bg-gray-950/60'>
 
-            <NavLink to={"/business-consultancy"} className="font-semibold text-alt">
+                    <NavLink to={"/bookkeeping-payroll"} className="font-semibold text-alt text-sm md: ">   Learn More About Bookkeeping & Payroll        </NavLink>
 
-            Business Consultancy
-            </NavLink>
-
+                </div>
             </div>
-        </div>
 
-        <div className='shadow relative text-center rounded-lg p-10'>
-            <img src={briefcase} alt="" className='w-10 m-auto' />
-            <NavLink to="/tax-planning">
-            <p className='my-6 font-medium title'>Strategic Tax Planning</p>
-            </NavLink>
-            <p className='my-5'>Let our experts help you navigate UK tax regulations while minimizing your tax liabilities. We handle everything from corporate tax returns to VAT submissions, ensuring you stay compliant and maximize savings.</p>
-            <div className='collapsable bg-gray-950/60'>
+            <div className='shadow relative text-center rounded-lg p-10'>
+                <img src={briefcase} alt="" className='w-10 m-auto' />
+                <NavLink to="/tax-planning">
+                <p className='my-6 font-medium title'>Tax Planning & Compliance</p>
+                </NavLink>
+                <p className='my-5'>Let our experts help you navigate UK tax regulations while minimizing your tax liabilities. We handle everything from corporate tax returns to VAT submissions, ensuring you stay compliant and maximize savings.</p>
+                <div className='collapsable bg-gray-950/60'>
+                    <NavLink to={"/tax-planning"} className="font-semibold text-alt text-sm"> Find Out More About Tax Planning </NavLink>
 
-<NavLink to={"/tax-planning"} className="font-semibold text-alt">
+                 </div>
+            </div>
 
-Business Consultancy
-</NavLink>
-
-</div>
-        </div>
-
-        <div className='shadow relative text-center rounded-lg p-10'>
-            <img src={compliance} alt="" className='w-10 m-auto' />
-
-            <NavLink to="/bookkeeping-payroll">
-            
-            <p className='my-6 font-medium title'>Bookkeeping & Payroll Services
-            </p></NavLink>
-            <p className='my-5'>Keep your financial records organized and up to date with our professional bookkeeping services. We also offer payroll management to ensure accurate and timely employee payments, letting you focus on running your business.
-            </p>
-            <div className='collapsable bg-gray-950/60'>
-
-<NavLink to={"/bookkeeping-payroll"} className="font-semibold text-alt">
-
-Business Consultancy
-</NavLink>
-
-</div>
-        </div>
-        <div className='shadow relative text-center rounded-lg p-10'>
+            <div className='shadow relative text-center rounded-lg p-10'>
             <img src={chat} alt="" className='w-10 m-auto' />
 
             <NavLink to="/financial-reporting">
-            <p className='my-6 font-medium title'>Financial Consultancy for Business Growth </p>
+            <p className='my-6 font-medium title'>Financial Reporting </p>
 
             </NavLink>
 
@@ -87,20 +63,36 @@ Business Consultancy
              </p>
              <div className='collapsable bg-gray-950/60'>
 
-            <NavLink to={"/financial-reporting"} className="font-semibold text-alt">
+            <NavLink to={"/financial-reporting"} className="font-semibold text-alt text-sm"> Discover Financial Reporting  </NavLink>
 
-            Business Consultancy
-            </NavLink>
+                </div>
+            </div>
+        
+            <div className='shadow relative text-center rounded-lg p-10'>
+                <img src={idea} alt="" className='w-10 m-auto' />
+                <NavLink to={"/business-consultancy"}>
+                <p className='my-6 font-medium title'>Business Consultancy</p>
+                </NavLink>
 
-</div>
-        </div>
+                <p className='my-5'>Ready to take your business to the next level? Our business consultancy services offer expert financial advice on cash flow management, budgeting, and long-term financial planning for sustainable growth.</p>
+                <div className='collapsable bg-gray-950/60'>
+
+                <NavLink to={"/business-consultancy"} className="font-semibold text-alt text-sm">Explore Business Consultancy                </NavLink>
+
+                </div>
+            </div>
+
+          
+
+     
+       
         
     </div>
         </section>
         {/* <Offers/> */}
 
         
-        <CTA text={"start optimizing your business finances today."} buttonText={"Get a Free Consultation"} title={"Ready to Take Control of Your Business Finances?"}/>
+        <CTA text={"Get in touch with our team today to schedule a free consultation."} buttonText={"Contact Us Now!"} title={"Ready to Take Control of Your Business Finances?"}/>
 
 
     </div>
