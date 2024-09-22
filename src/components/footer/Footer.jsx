@@ -6,11 +6,11 @@ import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <section>
+    <section className='px-5'>
 
     <footer className='bg-gray-900 py-20 px-4'>
-        <div className='m-auto max-w-7xl grid gap-10 md:grid-cols-3'>
-            <div className='md:px-12'>
+        <div className='m-auto max-w-7xl grid gap-10 sm:grid-cols-2 lg:grid-cols-4'>
+            <div className=''>
                 <h3 className='font-medium text-3xl mb-4 text-alt'>ABF Accounting</h3>
                 <p className=' text-sm text-gray-300'>ABF Accounting Services provides comprehensive accounting solutions for UK businesses of all sizes. <br/> <br/> Our team of professional accountants is dedicated to helping your business grow through tailored financial strategies and seamless compliance with UK regulations.</p>
 
@@ -29,7 +29,7 @@ const Footer = () => {
                 <h3>Contact Us</h3>
                 <p></p>
                 <div className='flex gap-5 my-4 items-center'>
-                <FaHouse/> <address>18 Thricknells Close, Luton, LU3 3RP</address>
+                <FaHouse/> <address className='not-italic'>18 Thricknells Close, Luton, LU3 3RP</address>
 
                 </div><div className='flex gap-5 my-4 items-center'>
                 <FaPhoneAlt/>       <a href="tel:+07405141694">07405141694</a>
@@ -40,7 +40,20 @@ const Footer = () => {
 
                 </div>
                 
-            </div>      
+            </div>   
+
+            <div className='social-link'>
+              <h5 className='text-white'>
+                Socials
+              </h5>
+              <div>
+                <span>
+
+                </span>
+              </div>
+              
+              
+              </div>   
         </div>
 
 
@@ -56,7 +69,7 @@ const Footer = () => {
                 <li className="border-r border-gray-400 px-4"> <NavLink to="/privacy-policy" class="hover:text-alt" >Privacy Policy </NavLink> </li>
                 <li className="border-r border-gray-400 px-4"> <NavLink to="/cookies-policy" class="hover:text-alt" >Cookie Policy</NavLink></li>
                 <li className="border-r border-gray-400 px-4"><NavLink to={"/modern-slavery"} class="hover:text-alt"> Modern Slavery Statement </NavLink></li>
-                <li className=" border-gray-400 px-4"> Site Map</li>
+                <li className=" border-gray-400 px-4"><NavLink to={"/site-map"} class="hover:text-alt">  Site Map </NavLink></li>
               </ul>
           </div>
 

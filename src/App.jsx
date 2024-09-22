@@ -17,6 +17,7 @@ import BlogPost from './pages/blog/blogPost/BlogPost'
 import CookiesPolicy from './pages/cookies-policy'
 import PrivacyPolicy from './pages/privacy-policy'
 import ModernSlavery from './pages/modern-slavery'
+import SiteMap from './pages/site-map/SiteMap'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -40,6 +41,7 @@ function App() {
           <Route path='/cookies-policy' element={<CookiesPolicy/>}/>
           <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
           <Route path='/modern-slavery' element={<ModernSlavery/>}/>
+          <Route path='/site-map' element={<SiteMap/>}/>
         </Routes>
 
         <Footer/>
