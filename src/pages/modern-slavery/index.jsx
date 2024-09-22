@@ -11,9 +11,9 @@ const ModernSlavery = () => {
         <Banner header={"Modern Slavery Statement"} />
         <section className="px-5 p-8 text-justify font-medium text-gray-600 leading-7" >
             <div className="100 max-w-4xl m-auto" >
+            <p className='text-right italic font-normal'>Approved on 01 September 2024</p>
 
-                <h2 className="text-3xl font-bold text-gray-600 text-center">Modern Slavery and Human Trafficking Statement                </h2>
-
+                <h2 className="text-3xl font-bold my-4 text-gray-600 text-center">Modern Slavery and Human Trafficking Statement                </h2>
                 <div>
                     <h3 className="text-theme my-3 text-2xl font-semibold">Introduction</h3>
                     <p className="text-gray-600 font-medium"> 
@@ -22,14 +22,14 @@ const ModernSlavery = () => {
 
                     </p>
 
-                    <h3 className="text-gray-600 my-3 text-xl font-semibold">Business Description </h3>
+                    <h3 className="text-gray-600 my-3 text-xl font-bold">Business Description </h3>
 
                     <p className='my-3'>We are a payroll and accounting outsourcing business operating globally.</p>
 
-                    <h3 className="text-gray-600 my-3 text-xl font-semibold">Core Values and Governance              </h3>
+                    <h3 className="text-gray-600 my-3 text-xl font-bold">Core Values and Governance              </h3>
 
                     <p> Our core values are listening, simplicity, and doing it right. We maintain transparent relationships with stakeholders, fostering diversity in our management team. We adhere to market and regulatory frameworks and regularly review conflicts of interest.                    </p>
-                    <h4 className="font-semibold my-3 text-gray-600">  Supply Chains              </h4>
+                    <h4 className="font-semibold my-3 text-gray-800">  Supply Chains              </h4>
                     <p>
                     Our commitment to ethical standards includes:
 
@@ -51,14 +51,14 @@ const ModernSlavery = () => {
                 </div>
 
                 <div>
-                    <h4 className="font-semibold my-3 text-gray-600 text-lg">People </h4>
+                    <h4 className="font-bold my-3 text-gray-600 text-lg">People </h4>
                     <p>
                     We foster a workplace culture based on fairness, equity, inclusivity, and transparency. Our Whistleblowing Policy ensures a secure mechanism for reporting concerns. Employee engagement surveys are conducted annually. We conduct pre-employment background checks and offer regular training on various topics, including modern slavery and human trafficking.
 
 
                     </p>
 
-                    <h4 className='font-semibold my-3 text-gray-600 text-lg'>
+                    <h4 className='font-bold my-3 text-gray-600 text-lg'>
                     Customers and Partners
 
                     </h4>
@@ -68,13 +68,13 @@ const ModernSlavery = () => {
                     </p>
 
                     
-                    <h4 className='font-semibold my-3 text-gray-600 text-lg'>Training</h4>
+                    <h4 className='font-bold my-3 text-gray-600 text-lg'>Training</h4>
                     <p className='my-3'>
                     Regular training, including induction and refresher programs, is provided to all employees. Specialized teams receive additional training, and refresher training is conducted annually. Management ensures comprehensive training on modern slavery and human trafficking within supply chains.
 
                     </p>
 
-                    <h4>
+                    <h4 className='font-bold my-3 text-gray-600 text-lg'>
                     Compliance
 
                     </h4>
@@ -84,14 +84,14 @@ const ModernSlavery = () => {
 
                     </p>
 
-                    <h4>
+                    <h4 className='font-bold my-3 text-gray-600 text-lg'>
                     Test of Adequacy
 
                     </h4>
 
                     <p className='my-3'> Zero reports indicate modern slavery practices within our organization.                </p>
 
-                    <h4 className='text-gray-900 font-semibold text-lg'>Policies </h4>
+                    <h4 className='text-gray-600 font-bold text-lg'>Policies </h4>
                     <p className="px-0">
                     We use the following types of cookies on our website:
                     <ul className="px-5 list-inside list-disc">
@@ -105,7 +105,7 @@ const ModernSlavery = () => {
                         </ul>
                     </p>
                     
-                    <h3 className="font-semibold my-3 text-gray-700 text-lg"> Moving Forward
+                    <h3 className="font-bold my-3 text-gray-600 text-lg"> Moving Forward
                     </h3>
                     <p>
                     We commit to enhancing our Modern Slavery Statement annually, updating policies and procedures, and improving employee awareness. The Board Ethics and Sustainability Committee will monitor modern slavery matters quarterly and escalate issues as needed.

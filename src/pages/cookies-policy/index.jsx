@@ -11,13 +11,14 @@ const CookiesPolicy = () => {
         <Banner header={"Coolies Policy"} />
         <section className="px-5 p-8 text-justify font-medium text-gray-600 leading-7" >
             <div className="100 max-w-4xl m-auto" >
+            <p className='text-right italic font-normal'>Effective Date: 1st January 2024            </p>
 
                 <h2 className="text-3xl font-bold text-gray-600 text-center">  Cookie  Policy </h2>
 
                 <div>
-                    <h3 className="text-theme my-3 text-2xl font-semibold">Introduction</h3>
+                    <h3 className="text-theme my-3 text-2xl font-bold">Introduction</h3>
                     <p className="text-gray-600 font-medium"> 
-                    Welcome to Rapid Pay's Cookie Policy. This policy outlines how we use cookies and similar technologies on our website, <NavLink to="/"> www.ABFAccounting.com.</NavLink>  By continuing to use our website, you consent to our use of cookies as described in this policy.
+                    Welcome to Rapid Pay's Cookie Policy. This policy outlines how we use cookies and similar technologies on our website, <NavLink to="/" className={"text-blue-700 underline hover:text-blue-400"}> www.ABFAccounting.com.</NavLink>  By continuing to use our website, you consent to our use of cookies as described in this policy.
 
 
                     </p>
@@ -28,10 +29,10 @@ const CookiesPolicy = () => {
 
                     </p>
                     <p> We recommend saving a copy of this Cookie Policy for your records.</p>
-                    <h4 className="font-semibold my-3 text-gray-600">  Contents </h4>
+                    <h4 className="font-bold text-xl my-3 text-gray-600">  Contents </h4>
                     <ul className='list-disc list-inside px-4'>
-                        <li>About Cookies </li>
-                        <li>Types of Cookies Used
+                        <li> <a href="#about-cookies" className='underline'> About Cookies</a> </li>
+                        <li> <a href="#cookies-type" className='text-blue- underline'>Types of Cookies Used</a>
 
                             <ul className='px-10 list-disc  '>
                             <li>Essential Cookies</li>
@@ -41,15 +42,15 @@ const CookiesPolicy = () => {
                             </ul>
                         </li>
 
-                        <li>Third-Party Cookies</li>
-                        <li>How to Accept or Reject Cookies</li>
-                        <li>Copyright, Credit, and Logo</li>
+                        <li><a href="#cookies-type" className='underline'>Third-Party Cookies </a></li>
+                        <li><a href="#how-to" className='underline'>How to Accept or Reject Cookies</a></li>
+                        <li> <a href="#copyright" className='underline'>Copyright, Credit, and Logo</a></li>
                     </ul>
 
                 </div>
 
                 <div>
-                    <h4 className="font-semibold my-3 text-gray-600 text-lg"> About Cookies</h4>
+                    <h4 className="font-bold my-3 text-gray-600 text-lg" id='about-cookies'> About Cookies</h4>
                     <p>
                     Cookies are data files sent between web servers and web browsers, memory, or hard drives to recognize a user's device when accessing a website. They serve various purposes, such as customizing a website, facilitating navigation, improving the user experience, and storing preferences and login information.
 
@@ -69,7 +70,7 @@ const CookiesPolicy = () => {
 
                     </p>
 
-                    <h4 className='text-gray-900 font-semibold text-lg'>Types of Cookies Used         </h4>
+                    <h4 className='text-gray-600 font-bold text-lg' id='cookies-type'>Types of Cookies Used         </h4>
                     <p className="px-0">
                     We use the following types of cookies on our website:
                     <ul className="px-5 list-inside list-disc">
@@ -82,7 +83,7 @@ const CookiesPolicy = () => {
                         </ul>
                     </p>
                     
-                    <h3 className="font-semibold my-3 text-gray-700 text-lg"> Third-Party Cookies</h3>
+                    <h3 className="font-bold my-3 text-gray-600 text-lg"> Third-Party Cookies</h3>
                     <p>
                     Third parties may use cookies to analyze your use of our website, such as Google Analytics cookies. These cookies collect and process data anonymously. For more information on how Google uses data, visit Google's privacy policy.
                     </p>
@@ -92,7 +93,7 @@ const CookiesPolicy = () => {
 
                     </p>
 
-                    <h4 className='text-gray-900 font-semibold text-lg'> How to Accept or Reject Cookies               </h4>
+                    <h4 className='text-gray-600 font-bold text-lg'> How to Accept or Reject Cookies               </h4>
                        <p className="mt-4 px-3"> Managing cookies can be done through your browser settings. If you're unsure how to do this, you can find instructions for commonly used browsers here:
                         <ul className="pl-3 leading-8 text-sm font-medium list-inside list-disc">
                         <li> <a href="">Google Chrome</a>  </li>
@@ -126,7 +127,7 @@ const CookiesPolicy = () => {
 
 
                 <div>
-                    <h3 className="my-3 font-semibold text-theme"> Copyright, Credit, and Logo</h3>
+                    <h3 className="my-3 font-bold text-theme"> Copyright, Credit, and Logo</h3>
                     <p>
                     This Cookie Policy is based on a General Data Protection Regulation (GDPR) compliant template provided by GDPR Privacy Policy. The copyright for this Cookie Policy is either owned by or licensed to us, protected by copyright laws worldwide and copyright protection software. All intellectual property rights are reserved.
                     </p>
