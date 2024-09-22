@@ -14,6 +14,9 @@ import BusinessConsultancy from './pages/services/businessConsultancy'
 import FinancialReporting from './pages/services/financialReporting'
 import TaxPlanning from './pages/services/taxplanning'
 import BlogPost from './pages/blog/blogPost/BlogPost'
+import CookiesPolicy from './pages/cookies-policy'
+import PrivacyPolicy from './pages/privacy-policy'
+import ModernSlavery from './pages/modern-slavery'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -34,6 +37,9 @@ function App() {
           <Route path='/business-consultancy' element={<BusinessConsultancy/>}/>
           <Route path='/financial-reporting' element={<FinancialReporting/>}/>
           <Route path='/tax-planning' element={<TaxPlanning/>}/>
+          <Route path='/cookies-policy' element={<CookiesPolicy/>}/>
+          <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
+          <Route path='/modern-slavery' element={<ModernSlavery/>}/>
         </Routes>
 
         <Footer/>

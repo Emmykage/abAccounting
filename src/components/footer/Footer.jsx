@@ -40,8 +40,7 @@ const Footer = () => {
 
                 </div>
                 
-                </div>
-      
+            </div>      
         </div>
 
 
@@ -54,9 +53,9 @@ const Footer = () => {
 
               <ul className="text-sm my-4 text-red-500 m-auto md:justify-center flex flex-col md:flex-row max-w-4xl flex-wrap gap-3 md:gap-0">
 
-                <li className="border-r border-gray-400 px-4"> <nuxt-link to="/privacy-policy" class="hover:text-theme" >Privacy Policy </nuxt-link> </li>
-                <li className="border-r border-gray-400 px-4"> <nuxt-link to="/privacy-policy" class="hover:text-theme" >Cookie Policy</nuxt-link></li>
-                <li className="border-r border-gray-400 px-4">Modern Slavery Statement</li>
+                <li className="border-r border-gray-400 px-4"> <NavLink to="/privacy-policy" class="hover:text-alt" >Privacy Policy </NavLink> </li>
+                <li className="border-r border-gray-400 px-4"> <NavLink to="/cookies-policy" class="hover:text-alt" >Cookie Policy</NavLink></li>
+                <li className="border-r border-gray-400 px-4"><NavLink to={"/modern-slavery"} class="hover:text-alt"> Modern Slavery Statement </NavLink></li>
                 <li className=" border-gray-400 px-4"> Site Map</li>
               </ul>
           </div>
