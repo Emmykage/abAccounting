@@ -3,7 +3,7 @@ import './slider.scss'
 
 const Slider = () => {
   return (
-    <div className=' h-screen  hero-banner w-screen'>
+    <div className=' h-screen  hero-banner w-full'>
       <div className='slider flex'>
 
       <div className='slide slide-1 w-full flex justify-center items-center'>
