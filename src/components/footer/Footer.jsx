@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaPhoneAlt } from 'react-icons/fa'
-import { FaHouse } from 'react-icons/fa6'
+import { FaFacebook, FaInstagram, FaLinkedin, FaPhoneAlt, FaTiktok } from 'react-icons/fa'
+import { FaHouse, FaXTwitter } from 'react-icons/fa6'
 import { IoMailSharp } from 'react-icons/io5'
 import { NavLink } from 'react-router-dom'
 
@@ -46,10 +46,11 @@ const Footer = () => {
               <h5 className='text-white'>
                 Socials
               </h5>
-              <div>
-                <span>
-
-                </span>
+              <div className='flex gap-6 items-center my-6' >
+              <a href='https://www.facebook.com/profile.php?id=61566396171123' target='_blank'> <FaFacebook className='text-white text-3xl' />   </a>
+              <a  href='https://www.linkedin.com/company/105183786/admin/dashboard/' target='_blank'> <FaLinkedin className='text-white text-3xl' />    </a>
+              <a  href='https://www.instagram.com/abfaccounting/' target='_blank'> <FaInstagram  className='text-white text-3xl' />   </a>
+              <a  href='https://www.tiktok.com/@abfaccounting?lang=en' target='_blank'> <FaTiktok className='text-white text-3xl'/>   </a>
               </div>
               
               
@@ -61,17 +62,17 @@ const Footer = () => {
     </footer>
     
     <div className="text-center mt-20">
-              <p className="text-sm text-gray-400">© 2024 ABF Accounting – 18 Thricknells Close, Luton, LU3 3RP. Telephone: 07405141694
-              </p>
+      <p className="text-sm text-gray-400">© 2024 ABF Accounting – 18 Thricknells Close, Luton, LU3 3RP. Telephone: 07405141694
+      </p>
 
-              <ul className="text-sm my-4 text-red-500 m-auto md:justify-center flex flex-col md:flex-row max-w-4xl flex-wrap gap-3 md:gap-0">
+      <ul className="text-sm my-4 text-red-500 m-auto md:justify-center flex flex-col md:flex-row max-w-4xl flex-wrap gap-3 md:gap-0">
 
-                <li className="border-r border-gray-400 px-4"> <NavLink to="/privacy-policy" class="hover:text-alt" >Privacy Policy </NavLink> </li>
-                <li className="border-r border-gray-400 px-4"> <NavLink to="/cookies-policy" class="hover:text-alt" >Cookie Policy</NavLink></li>
-                <li className="border-r border-gray-400 px-4"><NavLink to={"/modern-slavery"} class="hover:text-alt"> Modern Slavery Statement </NavLink></li>
-                <li className=" border-gray-400 px-4"><NavLink to={"/site-map"} class="hover:text-alt">  Site Map </NavLink></li>
-              </ul>
-          </div>
+        <li className="border-r border-gray-400 px-4"> <NavLink to="/privacy-policy" class="hover:text-alt" >Privacy Policy </NavLink> </li>
+        <li className="border-r border-gray-400 px-4"> <NavLink to="/cookies-policy" class="hover:text-alt" >Cookie Policy</NavLink></li>
+        <li className="border-r border-gray-400 px-4"><NavLink to={"/modern-slavery"} class="hover:text-alt"> Modern Slavery Statement </NavLink></li>
+        <li className=" border-gray-400 px-4"><NavLink to={"/site-map"} class="hover:text-alt">  Site Map </NavLink></li>
+      </ul>
+    </div>
 
     </section>
 
