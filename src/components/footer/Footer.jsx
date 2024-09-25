@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaPhoneAlt, FaTiktok } from 'react
 import { FaHouse, FaXTwitter } from 'react-icons/fa6'
 import { IoMailSharp } from 'react-icons/io5'
 import { NavLink } from 'react-router-dom'
-
+import logo from '../../assets/images/logo/logo.png'
 const Footer = () => {
   return (
     <section className='px-5'>
@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className='bg-gray-900 py-20 px-4'>
         <div className='m-auto max-w-7xl grid gap-10 sm:grid-cols-2 lg:grid-cols-4'>
             <div className=''>
-                <h3 className='font-medium text-3xl mb-4 text-alt'>ABF Accounting</h3>
+                <h3 className='font-medium text-3xl mb-4 text-alt'><NavLink to={"/"} ><img src={logo} alt="logo" className='w-36 bg-red-32' /> </NavLink> </h3>
                 <p className=' text-sm text-gray-300'>ABF Accounting Services provides comprehensive accounting solutions for UK businesses of all sizes. <br/> <br/> Our team of professional accountants is dedicated to helping your business grow through tailored financial strategies and seamless compliance with UK regulations.</p>
 
             </div>

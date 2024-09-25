@@ -5,7 +5,7 @@ import Services from './services/Services'
 import Slider from '../../components/heroBanner/Slider'
 import WWAImage from '../../assets/images/about/images-1-8.jpg'
 import experts from '../../assets/images/home/account-experts.jpg'
-import Capabilities from '../../components/capabilities/Capabilities'
+// import Capabilities from '../../components/capabilities/Capabilities'
 import CTA from '../../components/CTA/CAT'
 
 const Home = () => {
