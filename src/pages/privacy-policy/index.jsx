@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Nav from '../../components/nav/Nav'
 import Banner from '../../components/heroBanner/Banner'
+import { useLocation } from 'react-router-dom';
 
 const PrivacyPolicy = () => {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
     
   return (
   <main className="">

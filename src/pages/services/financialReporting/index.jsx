@@ -61,7 +61,7 @@ const FinancialReporting = () => {
                         </div>
                         </div>
                         
-                        <h3 className='text-3xl font-semibold text-center'>Our Financial Reportinlg Services        </h3>
+                        <h3 className='text-3xl font-semibold text-center'>Our Financial Reporting Services        </h3>
                         <div>
                         <p  className='text-center max-w-xl m-auto my-6'>At ABF Accounting Services, we tailor our financial reporting services to meet the specific needs of your business. Whether you need detailed reports for internal decision-making or to meet external compliance requirements, we’ve got you covered.
                         </p>
@@ -69,8 +69,8 @@ const FinancialReporting = () => {
                 
                         <div>   
                         
-                        <ul  className='grid  md:grid-cols-5 gap-5'>
-                            <li>
+                        <ul  className='grid  md:grid-cols-3 justify-center gap-5'>
+                            <li className='shadow p-4 border rounded'>
                                 <h5    className='text-lg font-medium text-center'> Profit & Loss Statements </h5>
                                 <p className='text-center'>
                                 Track your business’s profitability over a specific period. We provide detailed profit & loss (P&L) statements, showing your revenue, expenses, and net income to help you understand your overall financial performance.
@@ -78,7 +78,7 @@ const FinancialReporting = () => {
                                 </p>
 
                             </li>
-                            <li>
+                            <li className='shadow p-4 border rounded'>
                             <h5    className='text-lg font-medium text-center'>                             Balance Sheets                            </h5>
                             <p className='text-center'>
                             Gain a snapshot of your company’s financial position with a clear and concise balance sheet. This report provides an overview of your assets, liabilities, and equity, helping you assess your financial health.
@@ -87,7 +87,7 @@ const FinancialReporting = () => {
 
 
                             </li>
-                            <li>
+                            <li className='shadow p-4 border rounded'>
                             <h5    className='text-lg font-medium text-center'> Cash Flow Statements </h5>
                             <p className='text-center'>
                             Cash flow is crucial to the success of your business. Our cash flow reports break down your operating, investing, and financing activities, giving you a comprehensive view of your company’s cash flow.
@@ -95,7 +95,10 @@ const FinancialReporting = () => {
                             </p>
 
                             </li>
-                            <li className='text-center'>
+                           
+                        </ul>
+                        <ul  className='grid mt-10 md:grid-cols-3 justify-center gap-5'>
+                        <li className='shadow p-4 border rounded'>
                             <h5    className='text-lg font-medium text-center'>                             Financial Forecasting
                             </h5>
                             <p className='text-center'>
@@ -105,7 +108,7 @@ const FinancialReporting = () => {
 
 
                             </li>
-                            <li className='text-center'>
+                            <li className='shadow p-4 border rounded'>
                             <h5    className='text-lg font-medium text-center'>                             Custom Financial Reports
                             </h5>
 
@@ -217,7 +220,7 @@ const FinancialReporting = () => {
 
             </section>
 
-            <CTA text={"to learn more about how we can help you with financial reporting and gain a clearer understanding of your company’s performance."}   buttonText={"Get in Touch Now"}/>
+            <CTA text={"To learn more about how we can help you with financial reporting and gain a clearer understanding of your company’s performance."}   buttonText={"Get in Touch Now"}/>
         
     </div>
   )

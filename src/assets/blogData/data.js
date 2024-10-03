@@ -91,7 +91,7 @@ export const blogs = [
       <h2 class="my-2 text-lg font-medium">Tax Relief for Small Businesses</h2>
       <p>Take advantage of Annual Investment Allowance (AIA), which allows you to deduct the cost of business assets like machinery and equipment from your taxable profits.</p>
       
-      <h2 class="my-4 text-lg font-medium">Need Help with Corporate Tax?</h2>
+      <h2 class="my-4 mt-6 text-lg font-medium">Need Help with Corporate Tax?</h2>
       <p>At ABF Accounting Services, we specialize in tax planning and corporate tax compliance for small businesses. Our team ensures you meet deadlines, claim all available deductions, and minimize your tax liabilities.</p>
       
       <p><a class="text-blue-600" href="/tax-planning">Explore Our Tax Planning Services</a> and get in touch for a free consultation.</a>
@@ -124,11 +124,11 @@ export const blogs = [
       <h2 class="my-2 text-lg font-medium">4. Scalability</h2>
       <p>As your business grows, you’ll need software that can scale with it. Ensure your software can handle expanding operations and integrate with other tools like CRM systems or inventory management.</p>
       
-      <h2 class="my-4 text-lg font-medium">Need Help with Corporate Tax?</h2>
+      <h2 class="mt-4 my-2 text-lg font-medium">Need Help with Corporate Tax?</h2>
       <p>At ABF Accounting Services, we specialize in tax planning and corporate tax compliance for small businesses. Our team ensures you meet deadlines, claim all available deductions, and minimize your tax liabilities.</p>
       <div>
 
-      <h4 class="text-xl font-semibold">Need Help Choosing the Right Software?</h4>
+      <h4 class="text-xl font-semibold mt-6">Need Help Choosing the Right Software?</h4>
 
       <p>
         At ABF Accounting Services, we help businesses implement and optimize the right accounting software for their unique needs
@@ -171,7 +171,7 @@ export const blogs = [
 
      <div>
 
-      <h4 class="text-xl font-semibold">Is Outsourcing Payroll Right for Your Business?</h4>
+      <h4 class="text-xl font-semibold mt-6">Is Outsourcing Payroll Right for Your Business?</h4>
 
       <p>
         At ABF Accounting Services, we provide reliable and cost-effective payroll outsourcing services that ensure compliance and accuracy. 
@@ -209,7 +209,7 @@ export const blogs = [
       
   <div>
 
-      <h4 class="text-xl font-semibold">Need Help Managing Your Cash Flow?</h4>
+      <h4 class="text-xl mt-6 font-semibold">Need Help Managing Your Cash Flow?</h4>
 
       <p>
         At ABF Accounting Services, we provide expert financial consultancy and cash flow management advice to help your business thrive

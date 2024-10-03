@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Nav from '../../components/nav/Nav'
 import Banner from '../../components/heroBanner/Banner'
 import './appointment.scss'
 import ContactDetails from '../../components/contact-details/ContactDetails'
+import { useLocation } from 'react-router-dom'
 
 const BookApointment = () => {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
   return (
     <div>
         <Nav/>

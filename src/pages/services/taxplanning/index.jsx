@@ -23,7 +23,7 @@ const TaxPlanning = () => {
                 <div className='mt-6'>
                     <p> Effective tax planning is essential for businesses looking to reduce their tax liabilities while staying compliant with UK tax regulations. At ABF Accounting Services, we offer tailored tax planning services designed to help businesses of all sizes make the most of tax-saving opportunities and ensure full compliance with HMRC requirements.
                     </p>
-                    <h4 className='text-2xl font-semibold mt-2'>Why Is Tax Planning Important?                    </h4>
+                    {/* <h4 className='text-2xl font-semibold my-6 text-center'> Tax Planning </h4> */}
                     <div className='grid md:grid-cols-2 gap-10 py-4'>
                         <div className='h-96 p-10 '>
                             <img src={taxPLanningImage} alt="" className='h-full rounded-xl overflow-hidden border w-full' />
@@ -34,7 +34,7 @@ const TaxPlanning = () => {
                         <p>Tax planning is about more than just filing returns—it's a strategic process that helps businesses:                        </p>
 
                         <ul className='px-5 list-disc'>
-                            <li>
+                            <li >
                             Reduce tax liabilities by utilizing deductions, allowances, and reliefs.
 
                             </li>
@@ -71,26 +71,26 @@ const TaxPlanning = () => {
                     <p className='text-center max-w-xl m-auto my-6'>At ABF Accounting Services, we offer a range of services to support your business’s tax planning and compliance needs:
                     </p>
                     <div className='grid gap-10 md:grid-cols-3'>
-                        <div className='bg-red-5'>
+                        <div className='p-4 py-6 shadow-lg border'>
                         <img src={benefitIcon} alt="" className='w-10 m-auto'/>
 
                             <h4 className='text-lg font-medium text-center'>Corporate Tax Planning</h4>
                             <p  className='text-center'>We’ll help you minimize your corporate tax liabilities through careful planning and utilization of government schemes and reliefs, such as Annual Investment Allowance (AIA) and R&D tax credits.
                             </p>
                         </div>
-                        <div> 
+                        <div className='p-4 shadow-lg border hover:shadow-sm transition-all ease-linear duration-300'> 
                         <img src={benefitIcon} alt="" className='w-10 m-auto'/>
 
                             <h4 className='text-lg font-medium text-center'>Personal Tax Planning for Business Owners </h4>
                             < p className='text-center'>If you’re a business owner, managing your personal tax alongside your business tax can be tricky. We offer tax-efficient strategies to help you maximize your income and reduce personal tax burdens.</p>
                         </div>
-                        <div>
+                        <div className='p-4 shadow-lg border hover:shadow-sm transition-all ease-linear duration-300'>
                         <img src={benefitIcon} alt="" className='w-10 m-auto'/>
 
                             <h4 className='text-lg font-medium text-center'>VAT Planning and Compliance</h4>
                             <p className='text-center'>	We assist with VAT registration, preparation, and submission to ensure you’re compliant with UK VAT laws. We also offer advice on VAT schemes that might reduce your liabilities.</p>
                         </div>
-                        <div>
+                        <div className='p-4 shadow-lg border hover:shadow-sm transition-all ease-linear duration-300'>
                         <img src={benefitIcon} alt="" className='w-10 m-auto'/>
 
                             <h4 className='text-lg font-medium text-center'>    Capital Gains Tax (CGT) </h4>
@@ -99,7 +99,7 @@ const TaxPlanning = () => {
 
                             </p>
                         </div>
-                        <div>
+                        <div className='p-4 shadow-lg border hover:shadow-sm transition-all ease-linear duration-300'>
                         <img src={benefitIcon} alt="" className='w-10 m-auto'/>
 
                             <h4 className='text-lg font-medium text-center'>Inheritance Tax (IHT) Planning</h4>
@@ -107,7 +107,7 @@ const TaxPlanning = () => {
                             Ensure your wealth is passed on efficiently. We offer inheritance tax planning solutions for business owners who want to secure their legacy </p>
 
                         </div>
-                        <div>
+                        <div className='p-4 py-6 shadow-lg border hover:shadow-sm transition-all ease-linear duration-300'>
                         <img src={benefitIcon} alt="" className='w-10 m-auto'/>
 
                             <h4 className='text-lg font-medium text-center'>Tax Relief and Allowances</h4>
@@ -215,7 +215,7 @@ const TaxPlanning = () => {
 
             </section>
 
-            <CTA text={"to learn more about tax-saving opportunities and how we can help you stay compliant with HMRC requirements."}   buttonText={"Get a Free Consultation Now "}/>
+            <CTA text={"To learn more about tax-saving opportunities and how we can help you stay compliant with HMRC requirements."}   buttonText={"Get a Free Consultation Now "}/>
         
     </div>
   )

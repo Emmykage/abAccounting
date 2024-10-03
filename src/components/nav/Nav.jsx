@@ -35,7 +35,7 @@ const Nav = () => {
               <ul className=''>
                 <div className='bg-black'>
 
-                <li> <NavLink to={"/bookkeeping-payroll"}>BookKeeping & Payroll </NavLink></li>
+                <li> <NavLink to={"/bookkeeping-payroll"}>Bookkeeping & Payroll </NavLink></li>
                 <li> <NavLink to={"/business-consultancy"}>Business Consultancy </NavLink></li>
                 <li> <NavLink to={"/financial-reporting"}>Financial Reporting </NavLink></li>
                 <li> <NavLink to={"/tax-planning"}>Tax Planning </NavLink></li>

@@ -20,8 +20,8 @@ const BookkeepingPayroll = () => {
 
                 <div className='mt-6'>
                     <p> At ABF Accounting Services, we understand that efficient bookkeeping and accurate payroll management are crucial to the success of any business. That’s why we offer comprehensive bookkeeping and payroll services tailored to meet the unique needs of small and medium-sized businesses across the UK.</p>
-                    <h4 className='text-2xl font-semibold mt-2'>Bookkeeping Services</h4>
-                    <div className='grid md:grid-cols-2 gap-10 py-4'>
+                    <h4 className='text-2xl font-semibold my-6 text-center'>Bookkeeping Services</h4>
+                    <div className='grid md:grid-cols-2 gap-10 py-0'>
                         <div className='h-96 p-10'>
                             <img src={bookkeeping} alt="" className='h-full w-full' />
 
@@ -49,7 +49,7 @@ const BookkeepingPayroll = () => {
             </div>
 
             <div  className='max-w-7xl m-auto'>
-                <h4 className='text-2xl font-semibold mt-2'>Payroll Services </h4>
+                <h4 className='text-2xl font-semibold my-6 text-center'>Payroll Services </h4>
 
                 <div className='grid md:grid-cols-2 gap-10'>
                 <div className='h-96 p-10'>
@@ -59,7 +59,7 @@ const BookkeepingPayroll = () => {
                 <p>Managing payroll can be time-consuming and complex. Our payroll services ensure your employees are paid accurately and on time, while also ensuring compliance with UK tax laws, national insurance contributions, and pension requirements.</p>
                 <div>
                     <h4>Our Payroll Services Include:</h4>
-                        <ul>
+                        <ul className='list-disc list-inside px-4'>
                         <li>Employee salary and wage calculations              </li>
                         <li>Processing employee deductions (taxes, National Insurance, pensions)
                         </li>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Nav from '../../components/nav/Nav'
 import Banner from '../../components/heroBanner/Banner'
 import idea from '../../assets/images/idea.svg'
@@ -7,9 +7,15 @@ import compliance from '../../assets/images/presentation.svg'
 import chat from '../../assets/images/chat.svg'
 import CTA from '../../components/CTA/CAT'
 import Offers from '../../components/offers/Offers'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 import './service.scss'
 const Services = () => {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
   return (
     <div className=''>
         <Nav/>

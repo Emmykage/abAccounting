@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Nav from '../../components/nav/Nav'
 import './home.scss'
 import Services from './services/Services'
@@ -7,8 +7,15 @@ import WWAImage from '../../assets/images/about/images-1-8.jpg'
 import experts from '../../assets/images/home/account-experts.jpg'
 // import Capabilities from '../../components/capabilities/Capabilities'
 import CTA from '../../components/CTA/CAT'
+import { useLocation } from 'react-router-dom'
 
 const Home = () => {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
   return (
     <div className='home'>
         <Nav/>

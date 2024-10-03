@@ -1,5 +1,5 @@
-import React from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
+import React, { useEffect } from 'react'
+import { useLocation, useNavigate, useParams } from 'react-router-dom'
 import { blogs } from '../../../assets/blogData/data'
 import Nav from '../../../components/nav/Nav'
 import Banner from '../../../components/heroBanner/Banner'
@@ -7,6 +7,12 @@ import Banner from '../../../components/heroBanner/Banner'
 const BlogPost = () => {
     const {id} = useParams()
     const navigate = useNavigate()
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
 
     const blog = blogs?.find(blog => blog.id == id)
 

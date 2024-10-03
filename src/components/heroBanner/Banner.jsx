@@ -15,7 +15,7 @@ const Banner = ({header}) => {
             case "appointment": 
                 return "Book APpointment" 
             case "bookkeeping":
-                return "Bookeeping & Payroll"
+                return "Bookkeeping & Payroll"
             case "business-consultancy":
                 return "Business Consultancy"
             case "financial-report":

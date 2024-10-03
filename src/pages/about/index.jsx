@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Nav from '../../components/nav/Nav'
 import Banner from '../../components/heroBanner/Banner'
 import teamPhoto from "../../assets/images/about/team_building_san_antonio_0.jpg"
 import './about.scss'
 import CTA from '../../components/CTA/CAT'
+import { useLocation } from 'react-router-dom'
 const About = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <div className=''>
         <Nav/>

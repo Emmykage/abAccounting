@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Nav from '../../components/nav/Nav'
 import Banner from '../../components/heroBanner/Banner'
 import { FaHouse } from 'react-icons/fa6'
 import { FaPhoneAlt } from 'react-icons/fa'
 import { IoMailSharp } from 'react-icons/io5'
 import './contact.scss'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 const Contact = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <div>
       <Nav/>

@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 import logo from '../../assets/images/logo/logo.png'
 const Footer = () => {
   return (
-    <section className='px-5'>
+    <section className=''>
 
     <footer className='bg-gray-900 py-20 px-4'>
         <div className='m-auto max-w-7xl grid gap-10 sm:grid-cols-2 lg:grid-cols-4'>
@@ -15,7 +15,7 @@ const Footer = () => {
                 <p className=' text-sm text-gray-300'>ABF Accounting Services provides comprehensive accounting solutions for UK businesses of all sizes. <br/> <br/> Our team of professional accountants is dedicated to helping your business grow through tailored financial strategies and seamless compliance with UK regulations.</p>
 
             </div>
-            <div className='text-white text- md:px-10'>
+            <div className='text-white text- md:px-0'>
                 <h3 className='mb-6 text-lg'> Links</h3>
                 <ul>
                 <li className='hover:text-gray-400 cursor-pointer'><NavLink to={"/"}> Home</NavLink> </li>
@@ -61,7 +61,7 @@ const Footer = () => {
         
     </footer>
     
-    <div className="text-center mt-20">
+    <div className="text-center mt-20 px-5">
       <p className="text-sm text-gray-400">© 2024 ABF Accounting – 18 Thricknells Close, Luton, LU3 3RP. Telephone: 07405141694
       </p>
 
