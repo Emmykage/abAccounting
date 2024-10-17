@@ -23,7 +23,7 @@ const Home = () => {
 
         <section className='py-20 px-4'>
             <div className='m-auto max-w-3xl text-center'>
-                <h3 className='text-2xl md:text-3xl px-3 py-2 w-max m-auto font-medium border-alt border-[4px]'>Welcome to ABF Accounting Services </h3>
+                <h3 className='text-2xl md:text-3xl px-3 py-2 md:w-max m-auto font-medium border-alt border-[4px]'>Welcome to ABF Accounting Services </h3>
                 <p className='text-black mt-4'>ABF Accounting Services provides comprehensive accounting solutions for UK businesses of all sizes. Our team of professional accountants is dedicated to helping your business grow through tailored financial strategies and seamless compliance with UK regulations.
 
                 </p>
@@ -78,7 +78,7 @@ const Home = () => {
             </div>
             </div>
         </section>
-        <CTA buttonText={"Discover Our Services"} link="/services" title={"Get Stared Today"} text={"Contact us for a free consultation and see how we can help your business thrive.'"}/>
+        <CTA buttonText={"Discover Our Services"} link="/services" title={"Get Stared Today"} text={"Contact us for a free consultation and see how we can help your business thrive."}/>
 
     </div>
 

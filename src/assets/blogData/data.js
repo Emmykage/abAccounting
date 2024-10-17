@@ -184,7 +184,7 @@ export const blogs = [
     id:  uuidv4(),
     title: "Strategies for Improving Cash Flow in Your Business",
     blogImage: cashflowImage,
-    category: "Buisiness Consultancy",
+    category: "Business Consultancy",
     description: "Cash flow is the lifeblood of any business. Without effective cash flow management, businesses may struggle to meet day-to-day expenses. Here are some strategies to help you improve your business’s cash flow.", 
 
     body: `

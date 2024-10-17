@@ -18,7 +18,7 @@ const ContactDetails = () => {
     <div className='text-center shadow md:p-8'>
       <span className='block m-auto text-center w-max my-3'><FaPhoneAlt className='text-3xl' /></span>
       <h4 className='text-xl font-medium text-gray-600 uppercase'>contact number</h4>
-      <a href="tel:+07405141694">07405141694</a>
+      <a href="tel:++4407405141694">+4407405141694</a>
     </div>
     <div className='text-center shadow p-8'>
       <span className='block m-auto text-center w-max my-3'><IoMailSharp className='text-3xl'/></span>
