@@ -77,7 +77,7 @@ export const blogs = [
     <p className="text-xl font-bold">Corporate tax can be a daunting subject for small business owners in the UK, but understanding how it works is essential for staying compliant and optimizing your financial position. At ABF Accounting Services, we specialize in helping small businesses navigate the complexities of UK corporate tax. Let’s dive into the basics of corporate tax and how it affects your business.</p>
       
       <h2 class="my-4 text-lg font-medium" >What Is Corporate Tax?</h2>
-      <p>Corporate tax is a levy on the profits made by your business. The current rate for small businesses in the UK is [insert rate], and all businesses must report their profits to HMRC and pay corporate tax accordingly.</p>
+      <p>Corporate tax is a levy on the profits made by your business. The current rate for UK small businesses with profits less than £50,000 is 19%, and all businesses must report their profits to HMRC and pay corporate tax accordingly.</p>
       
       <h2 class="my-2 text-lg font-medium">How Corporate Tax Is Calculated</h2>
       <p>Your corporate tax is based on your company’s taxable profits, which include revenue minus allowable expenses such as salaries, rent, and equipment. It’s important to ensure that you’re claiming all eligible deductions to reduce your tax liability.</p>

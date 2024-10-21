@@ -33,7 +33,7 @@ const Footer = () => {
 
                 </div>
                 <div className='flex gap-5 my-4 items-center flex-col md:flex-row'>
-                <FaPhoneAlt/>       <a href="tel:++4407405141694">+4407405141694</a>
+                <FaPhoneAlt/>       <a href="tel:++447405141694">+447405141694</a>
 
 
                 </div>
@@ -64,7 +64,7 @@ const Footer = () => {
     </footer>
     
     <div className="text-center mt-20 px-5">
-      <p className="text-sm text-gray-400">© 2024 ABF Accounting – 18 Thricknells Close, Luton, LU3 3RP. Telephone: +4407405141694
+      <p className="text-sm text-gray-400">© 2024 ABF Accounting – 18 Thricknells Close, Luton, LU3 3RP. Telephone: +447405141694
       </p>
 
       <ul className="text-sm my-4  text-red-500 m-auto md:justify-center flex flex-col md:flex-row max-w-4xl flex-wrap gap-3 md:gap-0">
