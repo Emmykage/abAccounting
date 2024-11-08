@@ -11,15 +11,15 @@ const Capabilities = () => {
             <p className='my-8 font-medium text-xl'>24/7 SUPPORT</p>
         </div>
         <div className='p-8 shadow text-center'>
-            <img src={file} alt="" className='m-auto w-20'/>
+            <img src={file} alt="tax planning" className='m-auto w-20'/>
             <p className='my-8 font-medium text-xl uppercase'>Plannings</p>
         </div>
         <div className='p-8 shadow text-center'>
-            <img src={list} alt="" className='m-auto w-20'/>
+            <img src={list} alt="quality control" className='m-auto w-20'/>
             <p className='my-8 font-medium text-xl uppercase'>Quality Control</p>
         </div>
         <div className='p-8 shadow text-center'>
-            <img src={presentation} alt="" className='m-auto w-20'/>
+            <img src={presentation} alt="marketing" className='m-auto w-20'/>
             <p className='my-8 font-medium text-xl uppercase'>Marketing</p>
         </div>
         <div></div>

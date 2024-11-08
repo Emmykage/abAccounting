@@ -72,20 +72,20 @@ const TaxPlanning = () => {
                     </p>
                     <div className='grid gap-10 md:grid-cols-3'>
                         <div className='p-4 py-6 shadow-lg border'>
-                        <img src={benefitIcon} alt="" className='w-10 m-auto'/>
+                        <img src={benefitIcon} alt="icon" className='w-10 m-auto'/>
 
                             <h4 className='text-lg font-medium text-center'>Corporate Tax Planning</h4>
                             <p  className='text-center'>We’ll help you minimize your corporate tax liabilities through careful planning and utilization of government schemes and reliefs, such as Annual Investment Allowance (AIA) and R&D tax credits.
                             </p>
                         </div>
                         <div className='p-4 shadow-lg border hover:shadow-sm transition-all ease-linear duration-300'> 
-                        <img src={benefitIcon} alt="" className='w-10 m-auto'/>
+                        <img src={benefitIcon} alt="svg icon" className='w-10 m-auto'/>
 
                             <h4 className='text-lg font-medium text-center'>Personal Tax Planning for Business Owners </h4>
                             < p className='text-center'>If you’re a business owner, managing your personal tax alongside your business tax can be tricky. We offer tax-efficient strategies to help you maximize your income and reduce personal tax burdens.</p>
                         </div>
                         <div className='p-4 shadow-lg border hover:shadow-sm transition-all ease-linear duration-300'>
-                        <img src={benefitIcon} alt="" className='w-10 m-auto'/>
+                        <img src={benefitIcon} alt="svg icon" className='w-10 m-auto'/>
 
                             <h4 className='text-lg font-medium text-center'>VAT Planning and Compliance</h4>
                             <p className='text-center'>	We assist with VAT registration, preparation, and submission to ensure you’re compliant with UK VAT laws. We also offer advice on VAT schemes that might reduce your liabilities.</p>
@@ -100,7 +100,7 @@ const TaxPlanning = () => {
                             </p>
                         </div>
                         <div className='p-4 shadow-lg border hover:shadow-sm transition-all ease-linear duration-300'>
-                        <img src={benefitIcon} alt="" className='w-10 m-auto'/>
+                        <img src={benefitIcon} alt="ingheritance tax planing" className='w-10 m-auto'/>
 
                             <h4 className='text-lg font-medium text-center'>Inheritance Tax (IHT) Planning</h4>
                             <p className='text-center'>
