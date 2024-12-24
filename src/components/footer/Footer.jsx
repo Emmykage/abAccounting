@@ -1,9 +1,9 @@
-import React from 'react'
 import { FaFacebook, FaInstagram, FaLinkedin, FaPhoneAlt, FaTiktok } from 'react-icons/fa'
-import { FaHouse, FaXTwitter } from 'react-icons/fa6'
+import { FaHouse } from 'react-icons/fa6'
 import { IoMailSharp } from 'react-icons/io5'
 import { NavLink } from 'react-router-dom'
-import logo from '../../assets/images/logo/logo.png'
+// import logo from '../../assets/images/logo/logo.png'
+import logo from '../../assets/images/logo/Logo.png'
 const Footer = () => {
   return (
     <section className=''>
