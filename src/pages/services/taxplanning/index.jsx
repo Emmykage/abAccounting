@@ -1,4 +1,3 @@
-import React from 'react'
 import Banner from '../../../components/heroBanner/Banner'
 import TitleBox from '../../../components/titleBox/TitleBox'
 import Nav from '../../../components/nav/Nav'

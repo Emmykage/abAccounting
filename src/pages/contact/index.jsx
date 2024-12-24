@@ -45,7 +45,7 @@ const Contact = () => {
         </div>
       </section>
 
-      <section className='get-in-touch text-white py-20 px-4'>
+      <section id='contact-form' className='get-in-touch text-white py-20 px-4'>
         <div className='max-w-4xl  m-auto my-14'>
         <h3 className='text-5xl text-center font-semibold '>Get In Touch</h3>
         <p className='md:text-2xl my-5 text-center'>Contact Us Today to schedule a free consultation and discover how ABF Accounting Services can help your business thrive.
