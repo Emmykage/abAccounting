@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { TfiMenuAlt } from 'react-icons/tfi'
 import { NavLink } from 'react-router-dom'
 import "./nav.scss";
-import logo from '../../assets/images/logo/logo.png'
+import logo from '../../assets/images/logo/Logo.png'
 const Nav = () => {
     // const active = "text-alt"
     const [showMenu, setShowMenu] = useState(false)
