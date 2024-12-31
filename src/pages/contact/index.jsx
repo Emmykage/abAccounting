@@ -56,12 +56,21 @@ const Contact = () => {
           <div className='flex flex-col md:flex-row gap-6 my-6'>
             <div className='flex-1'>
               <label htmlFor="name"></label>
-              <input type="text" placeholder='Name' name='name' className='border p-5 focus:border-none text-gray-900 w-full font-semibold'/>
+              <input type="text" placeholder='Name' name='name' className='border rounded p-5 focus:border-none text-gray-900 w-full font-semibold'/>
 
             </div>
+          
             <div className='flex-1'>
               <label htmlFor="email">
-              <input type="text"  placeholder='Email' name='email' className='p-5 focus:outline-none text-gray-900 w-full font-semibold'/>
+              <input type="text"  placeholder='Email' name='email' className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold'/>
+
+              </label>
+            </div>
+          </div>
+          <div className='my-6'>
+          <div className='flex-1'>
+              <label htmlFor="phone_no">
+              <input type="text"  placeholder='phone_no' name='Phone Number' className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold'/>
 
               </label>
             </div>

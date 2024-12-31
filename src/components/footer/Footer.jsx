@@ -15,7 +15,7 @@ const Footer = () => {
                 <p className=' text-sm text-gray-300 text-center md:text-left'>ABF Accounting Services provides comprehensive accounting solutions for UK businesses of all sizes. <br/> <br/> Our team of professional accountants is dedicated to helping your business grow through tailored financial strategies and seamless compliance with UK regulations.</p>
 
             </div>
-            <div className='text-white text- md:px-0'>
+            <div className='text-white text- md:px-10'>
                 <h3 className='mb-6 text-lg text-center md:text-left'> Links</h3>
                 <ul className='text-center md:text-left'>
                 <li className='hover:text-gray-400 cursor-pointer'><NavLink to={"/"}> Home</NavLink> </li>
@@ -72,7 +72,8 @@ const Footer = () => {
         <li className="border-r border-gray-400 px-4"> <NavLink to="/privacy-policy" class="hover:text-alt" >Privacy Policy </NavLink> </li>
         <li className="border-r border-gray-400 px-4"> <NavLink to="/cookies-policy" class="hover:text-alt" >Cookie Policy</NavLink></li>
         <li className="border-r border-gray-400 px-4"><NavLink to={"/modern-slavery"} class="hover:text-alt"> Modern Slavery Statement </NavLink></li>
-        <li className=" border-gray-400 px-4"><NavLink to={"/site-map"} class="hover:text-alt">  Site Map </NavLink></li>
+        <li className="border-r border-gray-400 px-4"><NavLink to={"/site-map"} class="hover:text-alt">  Site Map </NavLink></li>
+        <li className=" border-gray-400 px-4"><NavLink to={"/terms-of-service"} class="hover:text-alt"> Terms and Conditions</NavLink></li>
       </ul>
     </div>
 
