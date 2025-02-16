@@ -7,10 +7,8 @@ const Nav = () => {
     // const active = "text-alt"
     const [showMenu, setShowMenu] = useState(false)
     const [navBg, setNavBg] = useState("md:bg-gray-900/90")
+    // const [navBg, setNavBg] = useState("md:bg-[#A64D29]/90")
 
-    // const toggleMenu = {
-
-    // }
 
     useEffect(()=> {
       const scrollNav = (event) => {
