@@ -6,7 +6,7 @@ import logo from '../../assets/images/logo/Logo.png'
 const Nav = () => {
     // const active = "text-alt"
     const [showMenu, setShowMenu] = useState(false)
-    const [navBg, setNavBg] = useState("md:bg-gray-900/90")
+    const [navBg, setNavBg] = useState("md:bg-gray-700/90")
     // const [navBg, setNavBg] = useState("md:bg-[#A64D29]/90")
 
 
@@ -14,10 +14,10 @@ const Nav = () => {
       const scrollNav = (event) => {
         if(window.scrollY > 120){
           console.log("first")
-          setNavBg("md:bg-gray-900/60")
+          setNavBg("md:bg-gray-700/60")
         }
         else{
-          setNavBg("md:bg-gray-900/90")
+          setNavBg("md:bg-gray-700/90")
         }
       }
       window.addEventListener("scroll", scrollNav)
