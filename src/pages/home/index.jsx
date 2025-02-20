@@ -66,7 +66,7 @@ const Home = () => {
             </div>
         </section>
 
-        {/* <Adverts/> */}
+        <CTA buttonText={"Discover Our Services"} link="/services" title={"Get Stared Today"} text={"Contact us for a free consultation and see how we can help your business thrive."}/>
 
         <section className='px-4 py-10 shadow my-0'>
               <div className='h-60 m-auto max-w-7xl'>
@@ -79,7 +79,6 @@ const Home = () => {
                 </div>
         </section>
 
-        <CTA buttonText={"Discover Our Services"} link="/services" title={"Get Stared Today"} text={"Contact us for a free consultation and see how we can help your business thrive."}/>
     </div>
 
   )
