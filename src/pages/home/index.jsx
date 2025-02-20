@@ -7,13 +7,15 @@ import WWAImage from '../../assets/images/about/images-1-8.jpg'
 import experts from '../../assets/images/home/account-experts.jpg'
 import CTA from '../../components/CTA/CAT'
 import { useLocation } from 'react-router-dom'
-
+import icaew from '../../assets/images/logo/icaew.jpg'
+import central from '../../assets/images/logo/central.jpg'
+import books from '../../assets/images/logo/quick-books.png'
 const Home = () => {
     const { pathname } = useLocation();
 
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    }, [pathname]);
+    // useEffect(() => {
+    //   window.scrollTo(0, 0);
+    // }, [pathname]);
   
   return (
     <div className='home'>
@@ -63,8 +65,21 @@ const Home = () => {
             </div>
             </div>
         </section>
-        <CTA buttonText={"Discover Our Services"} link="/services" title={"Get Stared Today"} text={"Contact us for a free consultation and see how we can help your business thrive."}/>
 
+        {/* <Adverts/> */}
+
+        <section className='px-4 py-10 shadow my-0'>
+              <div className='h-60 m-auto max-w-7xl'>
+                    <div className='flex w-full flex-wrap h-full items-center justify-between'>
+                    <img src={icaew} className='w-44 h-36 object-contain' alt="" />
+                    <img src={central} className='w-44 h-32 object-contain' alt="" />
+                    <img src={books} className='w-44 h-32 object-contain' alt="" />
+                    </div>
+                    
+                </div>
+        </section>
+
+        <CTA buttonText={"Discover Our Services"} link="/services" title={"Get Stared Today"} text={"Contact us for a free consultation and see how we can help your business thrive."}/>
     </div>
 
   )

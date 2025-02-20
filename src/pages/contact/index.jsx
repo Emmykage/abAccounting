@@ -55,29 +55,114 @@ const Contact = () => {
         <form action="https://formspree.io/f/meojbarv"  method="post" className='max-w-7xl m-auto md:p-10 border-[5px] px-3 border-gray-300'>
           <div className='flex flex-col md:flex-row gap-6 my-6'>
             <div className='flex-1'>
-              <label htmlFor="name"></label>
-              <input type="text" placeholder='Name' name='name' className='border rounded p-5 focus:border-none text-gray-900 w-full font-semibold'/>
+              <label htmlFor="first_name"></label>
+              <input type="text" placeholder='First Name' name='first_name' className='border rounded p-5 focus:border-none text-gray-900 w-full font-semibold'/>
 
             </div>
-          
+            
             <div className='flex-1'>
+              <label htmlFor="last_name">
+              <input type="text"  placeholder='Last Name' name='last_name' className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold'/>
+
+              </label>
+            </div>
+          
+          </div>
+          
+          <div className='flex-1'>
               <label htmlFor="email">
               <input type="text"  placeholder='Email' name='email' className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold'/>
 
               </label>
             </div>
-          </div>
           <div className='my-6'>
           <div className='flex-1'>
               <label htmlFor="phone_no">
-              <input type="text"  placeholder='phone_no' name='Phone Number' className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold'/>
+              <input type="text"  placeholder='Phone number' name='Phone Number' className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold'/>
 
               </label>
             </div>
           </div>
-          <div>
-            <textarea name="message" id="message" placeholder='Message' className='p-5 focus:outline-none h-40 rounded-lg text-gray-900 w-full font-semibold'></textarea>
+
+          <div className='my-6'>
+            <label htmlFor="business_name"></label>
+            <input type="text"  placeholder='Business Name' name='Business Name' className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold'/>
+
+
           </div>
+
+          <div>
+            <label htmlFor="type">What Type of Business</label>
+            <select className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold' name='business_type' id='business_type'>
+            <option value="Sole Trader">Sole Trader</option>
+            <option value="Partnershi">Partnership</option>
+            <option value="Ltd Company">Ltd Company </option>
+            <option value="LLP">LLP</option>
+            </select>
+          </div>
+          <div className='flex flex-col md:flex-row gap-5 my-6'>
+
+        
+          <div className='flex-1'>
+            <label htmlFor="financial_year">In which month does your financial years starts</label>
+            <select name='financial_year' id='financial_year' className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold'>
+            <option value="Not sure">I'm not sure </option>
+            <option value="January">January</option>
+            <option value="February">February </option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+            </select>
+          </div>
+
+          <div className='flex-1'>
+            <label htmlFor="VAT">Are you VAT Registered</label>
+            <select className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold' name='VAT' id='VAT'>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        
+            </select>
+          </div>
+          </div>
+
+          <div className='flex gap-5 my-6'>
+
+
+          <div className='flex-1'>
+            <label htmlFor="company_size">Whats Your Company SIze?</label>
+            <select className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold' name='company_size' id='company_size'>
+            <option value="1_3">1 - 3</option>
+            <option value="3_6">3 - 6 </option>
+            <option value="6_9">6 - 9 </option>
+            <option value="9_15">9 - 15</option>
+            <option value="15_20">15 - 20</option>
+            <option value="3_6">20 - 25 </option>
+            <option value="25_30">25 - 30 </option>
+            <option value="30_35">30 - 35 </option>
+            <option value="35_40">35 - 40 </option>
+            <option value="40_45">40 - 45 </option>
+            <option value="45_50">45 - 50 </option>
+            <option value="50+">50+ </option>
+        
+            </select>
+          </div>
+          <div className='flex-1'>
+            <label htmlFor="pyroll?">Would you like us to care for your payroll?</label>
+            <select className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold' name="payroll?" id="payroll?">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+            <option value="maybe later">Maybe Later</option>
+            </select>
+          </div>
+          </div>
+
 
           <div>
             <button className='py-4 px-14 bg-alt my-5 rounded w-full md:w-max'>Submit</button>
