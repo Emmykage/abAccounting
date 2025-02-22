@@ -42,7 +42,7 @@ const Nav = () => {
               </ul>
             </li>
             <li  className='px-4 py-2 cursor-pointer'><NavLink to={'/blog'} className={({isActive}) => (isActive && "text-alt")}> Blog </NavLink></li>
-            <li  className='px-4 py-2 cursor-pointer'><NavLink to={'/contact-us'} className={({isActive}) => (isActive && "text-alt")}> Contact Us </NavLink></li>
+            <li  className='px-4 py-2 cursor-pointer'><NavLink to={'/get-a-quote'} className={({isActive}) => (isActive ? "text-alt" : "text-blue-400")}> Get a Quote</NavLink></li>
         </ul>
 
         <span className={`${showMenu && "z-50 text-white"} md:hidden`} onClick={() => setShowMenu(prev => !prev)}>

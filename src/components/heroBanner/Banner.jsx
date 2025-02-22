@@ -9,7 +9,7 @@ const Banner = ({header}) => {
             case "service":
                 return "Our Services"                
             case "contact":
-                return "Contact Us"
+                return "Get a Quote"
             case "about": 
                 return "About Us"    
             case "appointment": 
@@ -29,7 +29,7 @@ const Banner = ({header}) => {
         }
     }
   return (
-    <div className={`${header} h-72 flex items-center justify-center  service-banner w-screen`}>
+    <div className={`${header} h-96 flex items-center justify-center  service-banner w-screen`}>
         <div className='border-[3px] border-gray-400 px-10 py-3'>
             <h3 className='text-lg md:text-3xl text-white'>{bannerTitle(header)}</h3>
         </div>
