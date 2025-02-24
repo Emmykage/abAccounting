@@ -46,7 +46,9 @@ const Contact = () => {
       <section id='contact-form' className='get-in-touch text-white py-20 px-4'>
         <div className='max-w-4xl  m-auto my-14'>
         <h3 className='text-5xl text-center font-semibold '>Get a Quote</h3>
-        <p className='md:text-2xl my-5 text-center'>Contact Us Today to schedule a free consultation and discover how ABF Accounting Services can help your business thrive.
+        <p className='md:text-2xl my-5 text-center'>We charge a simple, fixed monthly fee based on your business type.
+            <br/>
+Get your no-obligation accounting quote instantly.
         </p>
 
         </div>
@@ -60,7 +62,7 @@ const Contact = () => {
             
             <div className='flex-1'>
               <label htmlFor="last_name">
-              <input type="text"  placeholder='Last Name' name='last_name' className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold'/>
+              <input type="text" required placeholder='Last Name' name='last_name' className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold'/>
 
               </label>
             </div>
@@ -69,14 +71,14 @@ const Contact = () => {
           
           <div className='flex-1'>
               <label htmlFor="email">
-              <input type="text"  placeholder='Email' name='email' className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold'/>
+              <input type="text" required placeholder='Email' name='email' className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold'/>
 
               </label>
             </div>
           <div className='my-6'>
           <div className='flex-1'>
               <label htmlFor="phone_no">
-              <input type="text"  placeholder='Phone number' name='Phone Number' className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold'/>
+              <input type="text" required placeholder='Phone number' name='Phone Number' className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold'/>
 
               </label>
             </div>
@@ -84,14 +86,14 @@ const Contact = () => {
 
           <div className='my-6'>
             <label htmlFor="business_name"></label>
-            <input type="text"  placeholder='Business Name' name='Business Name' className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold'/>
+            <input type="text" required placeholder='Business Name' name='Business Name' className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold'/>
 
 
           </div>
 
           <div>
             <label htmlFor="type">What Type of Business</label>
-            <select className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold' name='business_type' id='business_type'>
+            <select required className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold' name='business_type' id='business_type'>
             <option value="Sole Trader">Sole Trader</option>
             <option value="Partnershi">Partnership</option>
             <option value="Ltd Company">Ltd Company </option>
@@ -103,7 +105,7 @@ const Contact = () => {
         
           <div className='flex-1'>
             <label htmlFor="financial_year">In which month does your financial years starts</label>
-            <select name='financial_year' id='financial_year' className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold'>
+            <select required name='financial_year' id='financial_year' className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold'>
             <option value="Not sure">I'm not sure </option>
             <option value="January">January</option>
             <option value="February">February </option>
@@ -122,7 +124,7 @@ const Contact = () => {
 
           <div className='flex-1'>
             <label htmlFor="VAT">Are you VAT Registered</label>
-            <select className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold' name='VAT' id='VAT'>
+            <select required className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold' name='VAT' id='VAT'>
             <option value="Yes">Yes</option>
             <option value="No">No</option>
         
@@ -135,7 +137,7 @@ const Contact = () => {
 
           <div className='flex-1'>
             <label htmlFor="company_size">Whats Your Company SIze?</label>
-            <select className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold' name='company_size' id='company_size'>
+            <select  required className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold' name='company_size' id='company_size'>
             <option value="1_3">1 - 3</option>
             <option value="3_6">3 - 6 </option>
             <option value="6_9">6 - 9 </option>
@@ -153,7 +155,7 @@ const Contact = () => {
           </div>
           <div className='flex-1'>
             <label htmlFor="pyroll?">Would you like us to care for your payroll?</label>
-            <select className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold' name="payroll?" id="payroll?">
+            <select required className='p-5 rounded focus:outline-none text-gray-900 w-full font-semibold' name="payroll?" id="payroll?">
             <option value="yes">Yes</option>
             <option value="no">No</option>
             <option value="maybe later">Maybe Later</option>
