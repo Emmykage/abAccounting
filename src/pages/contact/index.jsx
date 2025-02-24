@@ -56,7 +56,7 @@ Get your no-obligation accounting quote instantly.
           <div className='flex flex-col md:flex-row gap-6 my-6'>
             <div className='flex-1'>
               <label htmlFor="first_name"></label>
-              <input type="text" placeholder='First Name' name='first_name' className='border rounded p-5 focus:border-none text-gray-900 w-full font-semibold'/>
+              <input type="text" required placeholder='First Name' name='first_name' className='border rounded p-5 focus:border-none text-gray-900 w-full font-semibold'/>
 
             </div>
             
