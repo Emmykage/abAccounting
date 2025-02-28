@@ -14,12 +14,12 @@ const Contact = () => {
   return (
     <div>
       <Nav/>
-      <Banner header="contact"/>
+      {/* <Banner header="contact"/> */}
 
-      <section className='py-10 px-5'>
+      <section className='py-14 px-5'>
         <div>
           {/* <h3 className='py-5 px-4 border-[3px] m-auto border-alt w-max text-3xl font-semibold'>Contact Us</h3> */}
-          <p className='text-center font-medium text-gray-600 max-w-4xl m-auto my-6'>Whether you need help with tax planning, payroll, or business consultancy, we’re here to support your accounting needs. Our team of experts is available to provide personalized advice and support for your business</p>
+          {/* <p className='text-center font-medium text-gray-600 max-w-4xl m-auto my-6'>Whether you need help with tax planning, payroll, or business consultancy, we’re here to support your accounting needs. Our team of experts is available to provide personalized advice and support for your business</p> */}
           {/* <div className='grid md:grid-cols-3 max-w-7xl m-auto gap-8'>
             <div className='text-center shadow p-8'>
               <span className='block m-auto text-center w-max my-3'><FaHouse className='text-3xl' /></span>
